@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import PrivateRoute from './utils/PrivateRoute';
+import Nav from './components/Nav';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Technologies from './components/Technologies';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import NoMatch from './components/NoMatch';
 
+function App() {
+	return (
+		<Router>
+			<div>
+				<Nav />
+				<Switch>
+					<Route exact path='/' component={Login} />
+					<Route exact path='/createaccount' component={CreateAccount} />
+					<PrivateRoute exact path='/dashboard' component={Dashboard} />
+					<PrivateRoute exact path='/browse' component={Browse} />
+					<PrivateRoute exact path='/post' component={Post} />
+					<PrivateRoute exact path='/offers/gear/:gearid' component={PostOffer} />
+					<Route component={NoMatch} />
+				</Switch>
+			</div>
+		</Router>
+	);
+}
 export default App;
