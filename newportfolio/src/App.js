@@ -6,8 +6,8 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-// import Technologies from './components/Technologies';
-// import Contact from './components/Contact';
+import Technologies from './components/Technologies';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import NoMatch from './components/NoMatch';
 
@@ -19,6 +19,8 @@ function App() {
 				<Header />
 				<About />
 				<Portfolio />
+				<Technologies />
+				<Contact />
 				<Footer />
 				<Switch>
 					{/* <Route exact path='/' component={Nav} /> */}
