@@ -2,9 +2,9 @@ import React from 'react';
 
 function Nav() {
 	return (
-		<nav className='navbar navbar-expand-lg navbar-dark' style={{ backgroundColor: '#0087E5' }}>
+		<nav className='navbar navbar-expand-lg navbar-dark'>
 			<a className='navbar-brand' href='/'>
-				<h2 className='header'>Gear Trader</h2>
+				<h2 className='header'>Griffin Criste</h2>
 			</a>
 
 			<button
