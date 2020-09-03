@@ -5,7 +5,7 @@ function Contact() {
 		<div id='contact'>
 			<div className='container'>
 				<div className='row'>
-					<div className='col-md-6 offset-md-2'>
+					<div className='col-md-6 offset-md-3'>
 						<div className='card contact-card'>
 							<h2 className='text-center'>Griffin Criste</h2>
 							<p>
