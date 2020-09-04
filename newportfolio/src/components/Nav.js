@@ -4,7 +4,7 @@ function Nav() {
 	return (
 		<nav className='navbar navbar-expand-lg navbar-dark'>
 			<a className='navbar-brand' href='/'>
-				<h2 className='header'>Griffin Criste</h2>
+				<h2 className='header-title'>Griffin Criste</h2>
 			</a>
 
 			<button
@@ -22,7 +22,7 @@ function Nav() {
 				<ul className='navbar-nav'>
 					<li className='nav-item active'>
 						<a className='nav-link' href='#header'>
-							<span className='material-icons d-none d-md-inline'>home</span> Header
+							<span className='material-icons d-none d-md-inline'>home</span>Home
 						</a>
 					</li>
 					<li className='nav-item active'>
