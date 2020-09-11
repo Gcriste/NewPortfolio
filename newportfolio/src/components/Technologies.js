@@ -1,30 +1,99 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fab);
 
 function Technologies() {
 	return (
-		<div id='technologies'>
-			<div className='container'>
-				<div className='row'>
-					<div className='col-md-6 offset-md-2'>
-						<div className='card technologies-card'>
-							<h2 className='text-center'>Griffin Criste</h2>
-							<p>
-								Congue eu consequat ac felis donec et odio pellentesque. Enim ut tellus elementum
-								sagittis vitae et. Velit scelerisque in dictum non consectetur a. Porttitor eget dolor
-								morbi non arcu risus quis varius quam. Enim diam vulputate ut pharetra sit amet. Feugiat
-								sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Tempor id eu nisl
-								nunc mi ipsum faucibus vitae. Viverra justo nec ultrices dui sapien eget mi proin sed.
-								Elementum integer enim neque volutpat ac tincidunt. Mauris in aliquam sem fringilla.
-								Enim neque volutpat ac tincidunt. Sit amet nisl suscipit adipiscing. Cursus mattis
-								molestie a iaculis at erat pellentesque adipiscing. Volutpat est velit egestas dui id
-								ornare. Laoreet id donec ultrices tincidunt arcu non sodales neque. Eu feugiat pretium
-								nibh ipsum consequat nisl vel pretium lectus.
-							</p>
+		<Fade right cascade>
+			<div id='technologies'>
+				<div className='container technology-container'>
+					<div className='row'>
+						<div className='col-md-6 offset-md-5'>
+							<div className='card technology-card'>
+								<h2 className='text-center'>TECHNOLOGIES</h2>
+								<div className='frontend-header'>
+									<h3>FrontEnd </h3>
+								</div>
+								<div className='frontend-container'>
+									<FontAwesomeIcon
+										clasName='technology-icon frontend-icon'
+										icon={[ 'fab', 'html5' ]}
+									/>
+									<div className='icon-header'>HTML</div>
+
+									<FontAwesomeIcon
+										clasName='technology-icon frontend-icon'
+										icon={[ 'fab', 'css3' ]}
+									/>
+									<div className='icon-header'>CSS</div>
+
+									<FontAwesomeIcon
+										clasName='technology-icon frontend-icon'
+										icon={[ 'fab', 'sass' ]}
+									/>
+									<div className='icon-header'>Sass</div>
+
+									<FontAwesomeIcon
+										clasName='technology-icon frontend-icon'
+										icon={[ 'fab', 'less' ]}
+									/>
+									<div className='icon-header'>Less</div>
+
+									<FontAwesomeIcon
+										clasName='technology-icon frontend-icon'
+										icon={[ 'fab', 'bootstrap' ]}
+									/>
+									<div className='icon-header'>Bootstrap</div>
+
+									<FontAwesomeIcon clasName='technology-icon frontend-icon' icon={[ 'fab', 'js' ]} />
+									<div className='icon-header'>Javascript</div>
+
+									<FontAwesomeIcon
+										clasName='technology-icon frontend-icon'
+										icon={[ 'fab', 'react' ]}
+									/>
+									<div className='icon-header'>React</div>
+								</div>
+								<div className='backend-header'>
+									<h3>Backend</h3>
+								</div>
+								<div className='backend-container'>
+									<FontAwesomeIcon clasName='technology-icon backend-icon' icon={[ 'fab', 'node' ]} />
+									<div className='icon-header'>Node.js</div>
+
+									<FontAwesomeIcon
+										clasName='technology-icon backend-icon'
+										icon={[ 'fab', 'mysql' ]}
+									/>
+									<div className='icon-header'>mySQL</div>
+
+									<FontAwesomeIcon
+										clasName='technology-icon backend-icon'
+										icon={[ 'fab', 'mongodb' ]}
+									/>
+									<div className='icon-header'>MongoDB</div>
+
+									<FontAwesomeIcon clasName='technology-icon backend-icon' icon={[ 'fab', 'c#' ]} />
+									<div className='icon-header'>C#</div>
+
+									<FontAwesomeIcon clasName='technology-icon backend-icon' icon={[ 'fab', 'git' ]} />
+									<div className='icon-header'>GIT</div>
+									<FontAwesomeIcon
+										clasName='technology-icon backend-icon'
+										icon={[ 'fab', 'python' ]}
+									/>
+									<div className='icon-header'>Python</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</Fade>
 	);
 }
 
