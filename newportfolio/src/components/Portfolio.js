@@ -13,7 +13,7 @@ function Nav() {
 									<h3>PORTFOLIO</h3>
 
 									<div className='row'>
-										<div className='col-sm-3'>
+										<div className='col-md-3 col-12'>
 											<div className='card well'>
 												<div className='card-header'>
 													<h4 className='text-center card-title'>
@@ -22,7 +22,7 @@ function Nav() {
 													<div className='card-body'>
 														<a href='#demo2' data-toggle='collapse'>
 															<img
-																src='assets/images/game of thrones.jpeg'
+																src={require('./assets/GOT.png')}
 																className='person'
 																alt='pic of game of thrones'
 															/>
@@ -56,16 +56,16 @@ function Nav() {
 												</div>
 											</div>
 										</div>
-										<div className='col-sm-3'>
+										<div className='col-md-3 col-12'>
 											<div className='card well'>
 												<div className='card-header'>
 													<h4 className='text-center card-title'>
-														<strong>Google Book Search</strong>
+														<strong>Rural Community Credit Union</strong>
 													</h4>
 													<div className='card-body'>
 														<a href='#demo' data-toggle='collapse'>
 															<img
-																src='assets/images/google pic.png'
+																src={require('./assets/RCCU.png')}
 																className='person'
 																alt='pic of Google'
 															/>
@@ -73,20 +73,14 @@ function Nav() {
 														<div id='demo' className='collapse'>
 															<h5>
 																{' '}
-																<a
-																	href='https://mysterious-wave-30496.herokuapp.com/'
-																	className='pichead'
-																>
+																<a href='https://www.rccu.com/' className='pichead'>
 																	{' '}
 																	Live Link
 																</a>
 															</h5>
 															<h5>
 																{' '}
-																<a
-																	href='https://github.com/Gcriste/googlebooksearch/tree/master/newgooglesearch'
-																	className='pichead'
-																>
+																<a href='/' className='pichead'>
 																	{' '}
 																	GitHub Link{' '}
 																</a>{' '}
@@ -100,7 +94,7 @@ function Nav() {
 												</div>
 											</div>
 										</div>
-										<div className='col-sm-3'>
+										<div className='col-md-3 col-12'>
 											<div className='card well'>
 												<div className='card-header'>
 													<h4 className='text-center card-title'>
@@ -109,7 +103,7 @@ function Nav() {
 													<div className='card-body'>
 														<a href='#demo3' data-toggle='collapse'>
 															<img
-																src='assets/images/gig.png'
+																src={require('./assets/GigFinder.png')}
 																className='person'
 																alt='pic of gigfinder'
 															/>
@@ -143,16 +137,16 @@ function Nav() {
 												</div>
 											</div>
 										</div>
-										<div className='col-sm-3'>
+										<div className='col-md-3 col-12'>
 											<div className='card well'>
 												<div className='card-header'>
 													<h4 className='text-center card-title'>
-														<strong>Budge-It</strong>
+														<strong>Math Whiz</strong>
 													</h4>
 													<div className='card-body'>
 														<a href='#demo4' data-toggle='collapse'>
 															<img
-																src='assets/images/budge-it-170219154254-thumbnail-4.jpg'
+																src={require('./assets/MathWhiz.png')}
 																className='person'
 																alt='pic of budget'
 															/>
@@ -160,27 +154,21 @@ function Nav() {
 														<div id='demo4' className='collapse'>
 															<h5>
 																{' '}
-																<a
-																	href='https://budgewisergcriste.herokuapp.com/'
-																	className='pichead'
-																>
+																<a href='/' className='pichead'>
 																	{' '}
 																	Live Link
 																</a>
 															</h5>
 															<h5>
 																{' '}
-																<a
-																	href='https://github.com/Gcriste/BudgeIt'
-																	className='pichead'
-																>
+																<a href='/' className='pichead'>
 																	{' '}
 																	GitHub Link{' '}
 																</a>
 															</h5>
 															<p className='app-description'>
-																A Budgetting App that tracks monthly budgets and
-																expenses based on transactions.
+																A simple app to help children work on their addition,
+																subtraction, multiplication and division skills.
 															</p>
 														</div>
 													</div>
