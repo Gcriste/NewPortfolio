@@ -22,57 +22,58 @@ function Technologies() {
 
 								<div className='frontend-container'>
 									<div className='icon-container'>
-										<div className='icon-header '>HTML</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow frontend-icon'
 											icon={[ 'fab', 'html5' ]}
 										/>
+										<div className='icon-header '>HTML</div>
 									</div>
 									<div className='icon-container'>
-										<div className='icon-header'>CSS</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow frontend-icon'
 											icon={[ 'fab', 'css3' ]}
 										/>
+
+										<div className='icon-header'>CSS</div>
 									</div>
 									<div className='icon-container'>
-										<div className='icon-header'>Sass</div>
 										<FontAwesomeIcon
 											className='technology-icon  hvr-grow frontend-icon'
 											icon={[ 'fab', 'sass' ]}
 										/>
+										<div className='icon-header'>Sass</div>
 									</div>
 
 									<div className='icon-container'>
-										<div className='icon-header'>Less</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow frontend-icon'
 											icon={[ 'fab', 'less' ]}
 										/>
+										<div className='icon-header'>Less</div>
 									</div>
 
 									<div className='icon-container'>
-										<div className='icon-header'>Bootstrap</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow frontend-icon'
 											icon={[ 'fab', 'bootstrap' ]}
 										/>
+										<div className='icon-header'>Bootstrap</div>
 									</div>
 
 									<div className='icon-container'>
-										<div className='icon-header'>Javascript</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow frontend-icon'
 											icon={[ 'fab', 'js' ]}
 										/>
+										<div className='icon-header'>Javascript</div>
 									</div>
 
 									<div className='icon-container'>
-										<div className='icon-header'>React</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow frontend-icon'
 											icon={[ 'fab', 'react' ]}
 										/>
+										<div className='icon-header'>React</div>
 									</div>
 								</div>
 								<div className='backend-header'>
@@ -80,46 +81,47 @@ function Technologies() {
 								</div>
 								<div className='backend-container'>
 									<div className='icon-container'>
-										<div className='icon-header'>Node.js</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow backend-icon'
 											icon={[ 'fab', 'node' ]}
 										/>
+										<div className='icon-header'>Node.js</div>
 									</div>
 									<div className='icon-container'>
-										<div className='icon-header'>mySQL</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow backend-icon'
 											icon={[ 'fab', 'mysql' ]}
 										/>
+										<div className='icon-header'>mySQL</div>
 									</div>
 									<div className='icon-container'>
-										<div className='icon-header'>MongoDB</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow backend-icon'
 											icon={[ 'fab', 'mongodb' ]}
 										/>
+										<div className='icon-header'>MongoDB</div>
 									</div>
 									<div className='icon-container'>
-										<div className='icon-header'>C#</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow backend-icon'
 											icon={[ 'fab', 'c#' ]}
 										/>
+										<div className='icon-header'>C#</div>
 									</div>
 									<div className='icon-container'>
-										<div className='icon-header'>GIT</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow backend-icon'
 											icon={[ 'fab', 'git' ]}
 										/>
+
+										<div className='icon-header'>GIT</div>
 									</div>
 									<div className='icon-container'>
-										<div className='icon-header'>Python</div>
 										<FontAwesomeIcon
 											className='technology-icon hvr-grow backend-icon'
 											icon={[ 'fab', 'python' ]}
 										/>
+										<div className='icon-header'>Python</div>
 									</div>
 								</div>
 							</div>

@@ -6,6 +6,7 @@ body {
 body,
 html,
 main {
+	font-family: 'Kumbh Sans', sans-serif;
 	height: 100%;
 	width: 100%;
 }
@@ -157,12 +158,16 @@ main {
 }
 
 .about-container {
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-top: 500px;
+	margin-bottom: 500px;
 }
 
 /*------------------------------------------------------------------------------------------*/
 /* portfolio section */
+.portfolio-container {
+	margin-top: 500px;
+	margin-bottom: 500px;
+}
 .portfolio-card {
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
 	margin-top: 20px;
@@ -236,7 +241,8 @@ main {
 /*------------------------------------------------------------------------------------------*/
 /* technology section */
 .technology-container {
-	margin-top: 100px;
+	margin-top: 500px;
+	margin-bottom: 500px;
 }
 .technology-card {
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
@@ -247,13 +253,11 @@ main {
 
 .frontend-container,
 .backend-container {
+	padding-bottom: 50px;
 	display: flex;
 	justify-content: center;
 	margin: auto;
-}
-
-.icon-header {
-	display: none;
+	position: relative;
 }
 
 .technology-icon {
@@ -261,28 +265,41 @@ main {
 	margin-right: 10px;
 }
 .svg-inline--fa:hover + .icon-header {
-	display: block;
+	margin-bottom: -10px;
+	opacity: 1;
+	height: auto;
+	color: #0087e5;
 }
-
+.svg-inline--fa:hover {
+	color: #0087e5;
+}
 .icon-header {
+	text-align: center;
+	transition: all 1s ease-out;
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
 	margin: 10px;
 	transition: all 3s ease-out;
+	position: absolute;
+	font-size: 18px;
+	font-weight: 600;
 }
 /*icons */
 .svg-inline--fa {
+	display: inline-block;
 	width: 3.25em !important;
 	height: 3.25em !important;
+	transition-duration: 3.3s;
 }
 .svg-inline--fa:hover {
 	cursor: pointer;
 }
-span {
-	color: red;
-}
 /*------------------------------------------------------------------------------------------*/
 /* contact section */
 .contact-container {
-	margin-top: 100px;
+	margin-top: 500px;
+	margin-bottom: 500px;
 }
 .contact-card {
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
