@@ -6,7 +6,10 @@ function Header() {
 			<div className='container-fluid hero-container'>
 				<div className='row'>
 					<div className='col-md-12 col-12'>
-						<img className='heroImage expand-lg' src={require('./assets/codecode.jpg')} />
+						<div
+							style={{ backgroundImage: 'url(' + require('./assets/coding.jpg') + ')' }}
+							className='heroImage expand-lg'
+						/>
 					</div>
 				</div>
 			</div>

@@ -136,7 +136,6 @@ main {
 .heroImage {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -248,7 +247,7 @@ main {
 
 .frontend-container,
 .backend-container {
-	display: flex;
+	/* display: flex; */
 	justify-content: space-between;
 	margin: auto;
 }
@@ -256,16 +255,19 @@ main {
 .icon-header {
 	display: none;
 }
+
 .svg-inline--fa:hover + .icon-header {
 	display: block;
 }
 /*icons */
 .svg-inline--fa {
-	transition: display 1s;
+	transition: display 3s;
 	width: 3.25em !important;
 	height: 3.25em !important;
 }
-
+.svg-inline--fa:hover {
+	cursor: pointer;
+}
 /*------------------------------------------------------------------------------------------*/
 /* contact section */
 .contact-container {
