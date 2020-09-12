@@ -4,13 +4,13 @@ import Slide from 'react-reveal/Slide';
 function Nav() {
 	return (
 		<Slide bottom cascade>
-			<div id='about'>
+			<div id='portfolio'>
 				<div className='container portfolio-container'>
 					<div className='row'>
 						<div className='col-md-12 col-12'>
 							<div className='card portfolio-card'>
 								<h2 className='text-center'>PORTFOLIO</h2>
-								<div id='portfolio' className='className bg-2'>
+								<div className='className bg-2'>
 									<div className='container text-center'>
 										<div className='row'>
 											<div className='col-md-3 col-12'>

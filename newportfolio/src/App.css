@@ -1,6 +1,5 @@
 /* all section */
 body {
-	background-image: linear-gradient(black, white);
 }
 
 body,
@@ -134,12 +133,53 @@ main {
 
 /*------------------------------------------------------------------------------------------*/
 /* header section */
+.header-title-container {
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	position: absolute;
+}
+.header-title-text {
+	font-size: 62px;
+	color: white;
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626,
+		0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+		0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+span {
+	color: white;
+	font-size: 62px;
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626,
+		0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+		0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+	position: relative;
+}
+span:after {
+	position: absolute;
+	content: attr(content);
+	top: 0;
+	left: 0;
+	-webkit-transition: all 750ms;
+	-moz-transition: all 750ms;
+	-o-transition: all 750ms;
+	transition: all 750ms;
+	-webkit-transform-origin: bottom left;
+	-ms-transform-origin: bottom left;
+	transform-origin: bottom left;
+}
+span:hover:after {
+	cursor: pointer;
+	-webkit-transform: skew(10deg, 25deg);
+	-ms-transform: skew(10deg, 25deg);
+	transform: skew(10deg, 25deg);
+}
+
 .heroImage {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
+	height: 70vh;
 	width: 100vw;
 }
 
@@ -150,6 +190,14 @@ main {
 
 /*------------------------------------------------------------------------------------------*/
 /* about section */
+#about {
+	background-image: linear-gradient(black, white);
+}
+
+.about-container {
+	margin-bottom: 500px;
+}
+
 .about-card {
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
 	margin-top: 20px;
@@ -157,15 +205,14 @@ main {
 	border-radius: 15px;
 }
 
-.about-container {
-	margin-top: 500px;
-	margin-bottom: 500px;
-}
-
 /*------------------------------------------------------------------------------------------*/
 /* portfolio section */
+#portfolio {
+	background-image: linear-gradient(black, white);
+}
+
 .portfolio-container {
-	margin-top: 500px;
+	margin-top: 50px;
 	margin-bottom: 500px;
 }
 .portfolio-card {
@@ -240,8 +287,11 @@ main {
 
 /*------------------------------------------------------------------------------------------*/
 /* technology section */
+#technology {
+	background-image: linear-gradient(black, white);
+}
 .technology-container {
-	margin-top: 500px;
+	margin-top: 50px;
 	margin-bottom: 500px;
 }
 .technology-card {
@@ -297,8 +347,11 @@ main {
 }
 /*------------------------------------------------------------------------------------------*/
 /* contact section */
+#contact {
+	background-image: linear-gradient(black, white);
+}
 .contact-container {
-	margin-top: 500px;
+	margin-top: 50px;
 	margin-bottom: 500px;
 }
 .contact-card {

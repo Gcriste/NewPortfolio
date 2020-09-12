@@ -3,14 +3,13 @@ import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import $ from 'jquery';
 
 library.add(fab);
 
 function Technologies() {
 	return (
 		<Fade right cascade>
-			<div id='technologies'>
+			<div id='technology'>
 				<div className='container technology-container'>
 					<div className='row'>
 						<div className='col-md-8 offset-md-4'>
