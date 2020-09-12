@@ -247,21 +247,29 @@ main {
 
 .frontend-container,
 .backend-container {
-	/* display: flex; */
-	justify-content: space-between;
+	display: flex;
+	justify-content: center;
 	margin: auto;
 }
 
-/* .icon-header {
+.icon-header {
 	display: none;
-} */
+}
 
-/* .svg-inline--fa:hover + .icon-header {
+.technology-icon {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.svg-inline--fa:hover + .icon-header {
 	display: block;
-} */
+}
+
+.icon-header {
+	margin: 10px;
+	transition: all 3s ease-out;
+}
 /*icons */
 .svg-inline--fa {
-	/* transition: display 3s; */
 	width: 3.25em !important;
 	height: 3.25em !important;
 }
