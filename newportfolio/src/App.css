@@ -252,21 +252,24 @@ main {
 	margin: auto;
 }
 
-.icon-header {
+/* .icon-header {
 	display: none;
-}
+} */
 
-.svg-inline--fa:hover + .icon-header {
+/* .svg-inline--fa:hover + .icon-header {
 	display: block;
-}
+} */
 /*icons */
 .svg-inline--fa {
-	transition: display 3s;
+	/* transition: display 3s; */
 	width: 3.25em !important;
 	height: 3.25em !important;
 }
 .svg-inline--fa:hover {
 	cursor: pointer;
+}
+span {
+	color: red;
 }
 /*------------------------------------------------------------------------------------------*/
 /* contact section */

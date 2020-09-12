@@ -1,21 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import $ from 'jquery';
 
 library.add(fab);
-$('.technology-icon').hover(
-	function() {
-		$(this).append($('<span> ***</span>'));
-	},
-	function() {
-		$(this).find('span').last().remove();
-	}
-);
 
 function Technologies() {
+	const [ isShown, setIsShown ] = useState(false);
+
 	return (
 		<Fade right cascade>
 			<div id='technologies'>
@@ -29,73 +22,107 @@ function Technologies() {
 								</div>
 								<div className='frontend-container'>
 									<FontAwesomeIcon
-										clasName='technology-icon frontend-icon'
+										onMouseEnter={() => setIsShown(true)}
+										onMouseLeave={() => setIsShown(false)}
+										className='technology-icon frontend-icon'
 										icon={[ 'fab', 'html5' ]}
 									/>
-									<div className='icon-header'>HTML</div>
+									{isShown && <div className='icon-header'>HTML</div>}
 
 									<FontAwesomeIcon
-										clasName='technology-icon frontend-icon'
+										onMouseEnter={() => setIsShown(true)}
+										onMouseLeave={() => setIsShown(false)}
+										className='technology-icon frontend-icon'
 										icon={[ 'fab', 'css3' ]}
 									/>
-									<div className='icon-header'>CSS</div>
+
+									{isShown && <div className='icon-header'>CSS</div>}
 
 									<FontAwesomeIcon
-										clasName='technology-icon frontend-icon'
+										onMouseEnter={() => setIsShown(true)}
+										onMouseLeave={() => setIsShown(false)}
+										className='technology-icon frontend-icon'
 										icon={[ 'fab', 'sass' ]}
 									/>
-									<div className='icon-header'>Sass</div>
+									{isShown && <div className='icon-header'>Sass</div>}
 
 									<FontAwesomeIcon
-										clasName='technology-icon frontend-icon'
+										onMouseEnter={() => setIsShown(true)}
+										onMouseLeave={() => setIsShown(false)}
+										className='technology-icon frontend-icon'
 										icon={[ 'fab', 'less' ]}
 									/>
-									<div className='icon-header'>Less</div>
+									{isShown && <div className='icon-header'>Less</div>}
 
 									<FontAwesomeIcon
-										clasName='technology-icon frontend-icon'
+										onMouseEnter={() => setIsShown(true)}
+										onMouseLeave={() => setIsShown(false)}
+										className='technology-icon frontend-icon'
 										icon={[ 'fab', 'bootstrap' ]}
 									/>
-									<div className='icon-header'>Bootstrap</div>
-
-									<FontAwesomeIcon clasName='technology-icon frontend-icon' icon={[ 'fab', 'js' ]} />
-									<div className='icon-header'>Javascript</div>
+									{isShown && <div className='icon-header'>Bootstrap</div>}
 
 									<FontAwesomeIcon
-										clasName='technology-icon frontend-icon'
+										onMouseEnter={() => setIsShown(true)}
+										onMouseLeave={() => setIsShown(false)}
+										className='technology-icon frontend-icon'
+										icon={[ 'fab', 'js' ]}
+									/>
+									{isShown && <div className='icon-header'>Javascript</div>}
+
+									<FontAwesomeIcon
+										onMouseEnter={() => setIsShown(true)}
+										onMouseLeave={() => setIsShown(false)}
+										className='technology-icon frontend-icon'
 										icon={[ 'fab', 'react' ]}
 									/>
-									<div className='icon-header'>React</div>
+									{isShown && <div className='icon-header'>React</div>}
 								</div>
 								<div className='backend-header'>
 									<h3>Backend</h3>
 								</div>
 								<div className='backend-container'>
-									<FontAwesomeIcon clasName='technology-icon backend-icon' icon={[ 'fab', 'node' ]} />
-									<div className='icon-header'>Node.js</div>
-
 									<FontAwesomeIcon
-										clasName='technology-icon backend-icon'
+										onMouseEnter={() => setIsShown(true)}
+										onMouseLeave={() => setIsShown(false)}
+										className='technology-icon backend-icon'
+										icon={[ 'fab', 'node' ]}
+									/>
+									{isShown && <div className='icon-header'>Node.js</div>}
+
+									{/* <FontAwesomeIcon
+									onMouseEnter={() => setIsShown(true)}
+									onMouseLeave={() => setIsShown(false)}
+										className='technology-icon backend-icon'
 										icon={[ 'fab', 'mysql' ]}
 									/>
-									<div className='icon-header'>mySQL</div>
+									<div className='icon-header'>mySQL</div> */}
 
-									<FontAwesomeIcon
-										clasName='technology-icon backend-icon'
+									{/* <FontAwesomeIcon
+									onMouseEnter={() => setIsShown(true)}
+									onMouseLeave={() => setIsShown(false)}
+										className='technology-icon backend-icon'
 										icon={[ 'fab', 'mongodb' ]}
 									/>
-									<div className='icon-header'>MongoDB</div>
+									<div className='icon-header'>MongoDB</div> */}
 
-									<FontAwesomeIcon clasName='technology-icon backend-icon' icon={[ 'fab', 'c#' ]} />
-									<div className='icon-header'>C#</div>
+									{/* <FontAwesomeIcon 
+									onMouseEnter={() => setIsShown(true)}
+									onMouseLeave={() => setIsShown(false)}className='technology-icon backend-icon' icon={[ 'fab', 'c#' ]} />
+									<div className='icon-header'>C#</div> */}
 
-									<FontAwesomeIcon clasName='technology-icon backend-icon' icon={[ 'fab', 'git' ]} />
-									<div className='icon-header'>GIT</div>
 									<FontAwesomeIcon
-										clasName='technology-icon backend-icon'
+										onMouseEnter={() => setIsShown(true)}
+										onMouseLeave={() => setIsShown(false)}
+										className='technology-icon backend-icon'
+										icon={[ 'fab', 'git' ]}
+									/>
+									{isShown && <div className='icon-header'>GIT</div>}
+									<FontAwesomeIcon
+										className='technology-icon backend-icon'
 										icon={[ 'fab', 'python' ]}
 									/>
-									<div className='icon-header'>Python</div>
+									{isShown && <div className='icon-header'>Python</div>}
 								</div>
 							</div>
 						</div>

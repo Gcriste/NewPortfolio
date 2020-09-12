@@ -5,8 +5,8 @@ function Nav() {
 	return (
 		<Slide bottom cascade>
 			<div id='about'>
-				<div classNameName='container portfolio-container'>
-					<div classNameName='row'>
+				<div className='container portfolio-container'>
+					<div className='row'>
 						<div className='col-md-12 col-12'>
 							<div className='card portfolio-card'>
 								<h2 className='text-center'>PORTFOLIO</h2>
