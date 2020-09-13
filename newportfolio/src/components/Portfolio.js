@@ -8,7 +8,7 @@ function Nav() {
 				<div className='container portfolio-container'>
 					<div className='row'>
 						<div className='col-md-12 col-12'>
-							<div className='card portfolio-card'>
+							<div className=''>
 								<h2 className='text-center'>PORTFOLIO</h2>
 								<div className='className bg-2'>
 									<div className='container text-center'>

@@ -12,6 +12,11 @@ main {
 
 /*------------------------------------------------------------------------------------------*/
 /* nav section */
+.navbar-collapse {
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+}
 .navbar {
 	background-image: linear-gradient(#0080ff, grey);
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
@@ -23,7 +28,7 @@ main {
 	animation-direction: alternate-reverse;
 	text-shadow: 0px 2px black;
 }
-@keyframes title {
+/* @keyframes title {
 	0% {
 		color: #660066;
 	}
@@ -129,7 +134,7 @@ main {
 	100% {
 		color: #9900cc;
 	}
-}
+} */
 
 /*------------------------------------------------------------------------------------------*/
 /* header section */
@@ -168,7 +173,7 @@ span:after {
 	transform-origin: bottom left;
 }
 span:hover:after {
-	cursor: pointer;
+	/* cursor: pointer; */
 	transform: translateY(-6px);
 	/* -ms-transform: skew(10deg, 25deg);
 	transform: skew(10deg, 25deg); */
