@@ -22,7 +22,8 @@ function Nav() {
 				<ul className='navbar-nav'>
 					<li className='nav-item active'>
 						<a className='nav-link' href='#header'>
-							<span className='material-icons d-none d-md-inline'>home</span>Home
+							<span className='material-icons'>home</span>
+							<span className='d-none d-md-inline'>Home</span>
 						</a>
 					</li>
 					<li className='nav-item active'>

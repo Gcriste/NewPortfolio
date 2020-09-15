@@ -12,7 +12,7 @@ function Contact() {
 			<div id='contact'>
 				<div className='container contact-container'>
 					<div className='row'>
-						<div className='col-md-6 offset-md-1'>
+						<div className='col-md-6 offset-md-1 col-12'>
 							<div className='card contact-card'>
 								<h2 className='text-center'>CONTACT</h2>
 								<div className='profile-picture-container'>
@@ -25,20 +25,20 @@ function Contact() {
 									</a>
 								</div>
 
-								<div class='contact-icon-container container'>
+								<div class='contact-icon-container'>
 									<div className='row'>
 										<div className='col-md-12'>
-											<a class='hvr-grow' href='tel:443651958'>
+											<a className='hvr-grow' href='tel:443651958'>
 												<span class='material-icons contact-icon'>call</span>
 											</a>
-											<a class='hvr-grow' href='mailto:griffincriste@gmail.com'>
+											<a className='hvr-grow' href='mailto:griffincriste@gmail.com'>
 												<span class='material-icons contact-icon '>email</span>
 											</a>
 										</div>
 									</div>
-									<div className='row'>
-										<div className='col-md-12'>
-											<div className='social-media-container container'>
+									<div className='social-media-container'>
+										<div className='row'>
+											<div className='col-md-12'>
 												<div className='social-container'>
 													<a href='www.linkedin.com'>
 														<FontAwesomeIcon
@@ -55,7 +55,7 @@ function Contact() {
 													<a href='www.facebook.com'>
 														<FontAwesomeIcon
 															className='hvr-grow social-icon'
-															icon={[ 'fab', 'facebook' ]}
+															icon={[ 'fab', 'facebook-square' ]}
 														/>
 													</a>
 												</div>

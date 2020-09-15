@@ -15,7 +15,7 @@ import NoMatch from './components/NoMatch';
 function App() {
 	return (
 		<Router>
-			<div>
+			<div class='body-container'>
 				<Nav />
 				<Header />
 				<About />
