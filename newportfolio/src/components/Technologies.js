@@ -16,7 +16,7 @@ function Technologies() {
 							<div className='card technology-card'>
 								<h2 className='text-center '>TECHNOLOGIES</h2>
 								<div className='frontend-header'>
-									<h3>FrontEnd </h3>
+									<h3>Frontend </h3>
 								</div>
 
 								<div className='frontend-container'>
