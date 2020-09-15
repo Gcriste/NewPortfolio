@@ -8,8 +8,8 @@ function About() {
 				<div className='container about-container'>
 					<div className='row'>
 						<div className='col-md-6 offset-md-1'>
-							<div className='card about-card'>
-								<h2 className='text-center'>ABOUT</h2>
+							<div className=''>
+								<h2 className='text-center about-header'>ABOUT</h2>
 								<p>
 									Congue eu consequat ac felis donec et odio pellentesque. Enim ut tellus elementum
 									sagittis vitae et. Velit scelerisque in dictum non consectetur a. Porttitor eget

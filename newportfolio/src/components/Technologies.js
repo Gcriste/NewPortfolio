@@ -14,9 +14,9 @@ function Technologies() {
 					<div className='row'>
 						<div className='col-md-8 offset-md-4'>
 							<div className='card technology-card'>
-								<h2 className='text-center '>TECHNOLOGIES</h2>
-								<div className='frontend-header'>
-									<h3>Frontend </h3>
+								<h2 className='text-center technology-header '>TECHNOLOGIES</h2>
+								<div className='frontend-header-container'>
+									<h3 className='frontend-header'>Frontend</h3>
 								</div>
 
 								<div className='frontend-container'>
@@ -75,8 +75,8 @@ function Technologies() {
 										<div className='icon-header'>React</div>
 									</div>
 								</div>
-								<div className='backend-header'>
-									<h3>Backend</h3>
+								<div className='backend-header-container'>
+									<h3 className='backend-header'>Backend</h3>
 								</div>
 								<div className='backend-container'>
 									<div className='icon-container'>

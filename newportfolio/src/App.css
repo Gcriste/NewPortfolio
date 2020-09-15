@@ -10,19 +10,29 @@ main {
 	height: 100%;
 	width: 100%;
 }
+.about-header,
+.portfolio-header,
+.technology-header,
+.contact-header {
+	font-size: 40px;
+	margin-bottom: 1em;
+}
 .body-container {
 	/* background-image: linear-gradient(#05c7f2, #fff, #011126); */
+
+	/* background-image: linear-gradient(#8b9da9, #fff6e4);
+	box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .3); */
 }
-#portfolio,
+
+#about,
 #technology {
+	background: linear-gradient(180deg, white, darkgrey 93%);
 	height: 100vh;
 }
 
-#technology {
-	background: linear-gradient(180deg, white, darkgrey 93%);
-}
-#about,
-#contact {
+#contact,
+#portfolio {
+	background: linear-gradient(180deg, darkgrey, white 93%);
 	height: 100vh;
 }
 /*------------------------------------------------------------------------------------------*/
@@ -40,11 +50,10 @@ main {
 	color: black;
 }
 .header-title {
-	animation-name: title;
+	/* animation-name: title;
 	animation-duration: 35s;
 	animation-iteration-count: infinite;
-	animation-direction: alternate-reverse;
-	text-shadow: 0px 2px black;
+	animation-direction: alternate-reverse; */
 	color: black;
 }
 
@@ -149,13 +158,15 @@ span:hover:after {
 	/* margin-top: 50px;
 	margin-bottom: 500px; */
 }
+
 .portfolio-card {
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
 	margin-top: 20px;
 	padding: 20px;
 	border-radius: 15px;
 }
-.person {
+
+.app {
 	width: 100%;
 	height: 15vw;
 	object-fit: cover;
@@ -164,6 +175,7 @@ span:hover:after {
 
 .col-md-3 .card {
 	transition: all .7s ease-out;
+	border-radius: 15px;
 }
 .col-md-3 .card:hover {
 	box-shadow: 0 3px 6px #999, 0 3px 6px #999;
@@ -250,6 +262,15 @@ span:hover:after {
 	height: auto;
 	color: #0087e5;
 }
+
+.frontend-container:hover ~ .frontend-header-container {
+	text-decoration: underline;
+	color: blue;
+}
+.frontend-container:hover ~ .backend-header {
+	text-decoration: underline;
+	color: blue;
+}
 .svg-inline--fa:hover {
 	color: #0087e5;
 }
@@ -312,7 +333,7 @@ span:hover:after {
 }
 
 .contact-icon {
-	font-size: 50px;
+	font-size: 75px;
 	color: black;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
@@ -325,6 +346,7 @@ span:hover:after {
 	color: black;
 	margin-left: 1.5em;
 	margin-right: 1.5em;
+	font-size: 20px;
 }
 /*------------------------------------------------------------------------------------------*/
 /* footer section */

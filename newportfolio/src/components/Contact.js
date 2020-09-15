@@ -14,7 +14,7 @@ function Contact() {
 					<div className='row'>
 						<div className='col-md-6 offset-md-1 col-12'>
 							<div className='card contact-card'>
-								<h2 className='text-center'>CONTACT</h2>
+								<h2 className='text-center contact-header'>CONTACT</h2>
 								<div className='profile-picture-container'>
 									<a href='mailto:griffincriste@gmail.com'>
 										<img

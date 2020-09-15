@@ -9,7 +9,7 @@ function Nav() {
 					<div className='row'>
 						<div className='col-md-12 col-12'>
 							<div className=''>
-								<h2 className='text-center'>PORTFOLIO</h2>
+								<h2 className='text-center portfolio-header'>PORTFOLIO</h2>
 								<div className='className bg-2'>
 									<div className='container text-center'>
 										<div className='row'>
@@ -24,7 +24,7 @@ function Nav() {
 														<a href='#demo2' data-toggle='collapse'>
 															<img
 																src={require('./assets/GOT.png')}
-																className='person img-fluid'
+																className='app img-fluid'
 																alt='pic of game of thrones'
 															/>
 														</a>
@@ -64,7 +64,7 @@ function Nav() {
 														<a href='#demo' data-toggle='collapse'>
 															<img
 																src={require('./assets/RCCU.png')}
-																className='person img-fluid'
+																className='app img-fluid'
 																alt='pic of Google'
 															/>
 														</a>
@@ -102,7 +102,7 @@ function Nav() {
 														<a href='#demo3' data-toggle='collapse'>
 															<img
 																src={require('./assets/GigFinder.png')}
-																className='person img-fluid'
+																className='app img-fluid'
 																alt='pic of gigfinder'
 															/>
 														</a>
@@ -142,7 +142,7 @@ function Nav() {
 														<a href='#demo4' data-toggle='collapse'>
 															<img
 																src={require('./assets/MathWhiz.png')}
-																className='person img-fluid'
+																className='app img-fluid'
 																alt='pic of budget'
 															/>
 														</a>
