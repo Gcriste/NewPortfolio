@@ -1,7 +1,8 @@
 /* all section */
 body {
+	/* background-image: linear-gradient(to bottom right, white, black);
+} */
 }
-
 body,
 html,
 main {
@@ -10,6 +11,14 @@ main {
 	width: 100%;
 }
 
+#about,
+#portfolio,
+#technology,
+#contact {
+	/* background-image: linear-gradient(to bottom right, white, black); */
+	height: 150vh;
+	margin: auto;
+}
 /*------------------------------------------------------------------------------------------*/
 /* nav section */
 .navbar-collapse {
@@ -195,12 +204,9 @@ span:hover:after {
 
 /*------------------------------------------------------------------------------------------*/
 /* about section */
-#about {
-	background-image: linear-gradient(black, white);
-}
 
 .about-container {
-	margin-bottom: 500px;
+	/* margin-bottom: 500px; */
 }
 
 .about-card {
@@ -212,13 +218,10 @@ span:hover:after {
 
 /*------------------------------------------------------------------------------------------*/
 /* portfolio section */
-#portfolio {
-	background-image: linear-gradient(black, white);
-}
 
 .portfolio-container {
-	margin-top: 50px;
-	margin-bottom: 500px;
+	/* margin-top: 50px;
+	margin-bottom: 500px; */
 }
 .portfolio-card {
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
@@ -292,12 +295,10 @@ span:hover:after {
 
 /*------------------------------------------------------------------------------------------*/
 /* technology section */
-#technology {
-	background-image: linear-gradient(black, white);
-}
+
 .technology-container {
-	margin-top: 50px;
-	margin-bottom: 500px;
+	/* margin-top: 50px;
+	margin-bottom: 500px; */
 }
 .technology-card {
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
@@ -352,12 +353,10 @@ span:hover:after {
 }
 /*------------------------------------------------------------------------------------------*/
 /* contact section */
-#contact {
-	background-image: linear-gradient(black, white);
-}
+
 .contact-container {
-	margin-top: 50px;
-	margin-bottom: 500px;
+	/* margin-top: 50px;
+	margin-bottom: 500px; */
 }
 .contact-card {
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
@@ -366,5 +365,26 @@ span:hover:after {
 	border-radius: 15px;
 }
 
+.contact-icon {
+	font-size: 50px;
+	color: black;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.contact-icon-container {
+	display: flex;
+	justify-content: center;
+}
+.profile-picture-container {
+	display: flex;
+	justify-content: center;
+}
+
+.profile-picture {
+	height: 36vh;
+	width: 30vh;
+	border-radius: 50%;
+}
 /*------------------------------------------------------------------------------------------*/
 /* footer section */

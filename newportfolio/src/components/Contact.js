@@ -10,18 +10,21 @@ function Contact() {
 						<div className='col-md-6 offset-md-1'>
 							<div className='card contact-card'>
 								<h2 className='text-center'>CONTACT</h2>
-								<p>
-									Congue eu consequat ac felis donec et odio pellentesque. Enim ut tellus elementum
-									sagittis vitae et. Velit scelerisque in dictum non consectetur a. Porttitor eget
-									dolor morbi non arcu risus quis varius quam. Enim diam vulputate ut pharetra sit
-									amet. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi.
-									Tempor id eu nisl nunc mi ipsum faucibus vitae. Viverra justo nec ultrices dui
-									sapien eget mi proin sed. Elementum integer enim neque volutpat ac tincidunt. Mauris
-									in aliquam sem fringilla. Enim neque volutpat ac tincidunt. Sit amet nisl suscipit
-									adipiscing. Cursus mattis molestie a iaculis at erat pellentesque adipiscing.
-									Volutpat est velit egestas dui id ornare. Laoreet id donec ultrices tincidunt arcu
-									non sodales neque. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus.
-								</p>
+								<div className='profile-picture-container'>
+									<img
+										alt='profile-pic'
+										className='profile-picture'
+										src={require('./assets/profilepicture.png')}
+									/>
+								</div>
+								<div class='contact-icon-container'>
+									<a class='hvr-grow' href='tel:443651958'>
+										<span class='material-icons contact-icon'>call</span>
+									</a>
+									<a class='hvr-grow' href='mailto:griffincriste@gmail.com'>
+										<span class='material-icons contact-icon '>email</span>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
