@@ -78,10 +78,10 @@ function Nav() {
 																	{' '}
 																	<h5>Live Link</h5>
 																</a>{' '}
-																<a href='/' className='portfolio-link'>
+																{/* <a href='/' className='portfolio-link'>
 																	{' '}
 																	<h5>GitHub Link </h5>
-																</a>{' '}
+																</a>{' '} */}
 															</div>
 															<p className='app-description'>
 																A google search app that searches the google api for
@@ -149,11 +149,17 @@ function Nav() {
 														<div id='demo4' className='collapse'>
 															{' '}
 															<div className='link-container'>
-																<a href='/' className='portfolio-link'>
+																<a
+																	href='https://math-whiz.herokuapp.com/'
+																	className='portfolio-link'
+																>
 																	{' '}
 																	<h5>Live Link</h5>
 																</a>{' '}
-																<a href='/' className='portfolio-link'>
+																<a
+																	href='https://github.com/Gcriste/Times-Tables'
+																	className='portfolio-link'
+																>
 																	{' '}
 																	<h5>GitHub Link </h5>
 																</a>

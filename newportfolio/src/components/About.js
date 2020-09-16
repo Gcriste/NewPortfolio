@@ -11,16 +11,16 @@ function About() {
 							<div className=''>
 								<h2 className='text-center about-header'>ABOUT</h2>
 								<p>
-									Congue eu consequat ac felis donec et odio pellentesque. Enim ut tellus elementum
-									sagittis vitae et. Velit scelerisque in dictum non consectetur a. Porttitor eget
-									dolor morbi non arcu risus quis varius quam. Enim diam vulputate ut pharetra sit
-									amet. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi.
-									Tempor id eu nisl nunc mi ipsum faucibus vitae. Viverra justo nec ultrices dui
-									sapien eget mi proin sed. Elementum integer enim neque volutpat ac tincidunt. Mauris
-									in aliquam sem fringilla. Enim neque volutpat ac tincidunt. Sit amet nisl suscipit
-									adipiscing. Cursus mattis molestie a iaculis at erat pellentesque adipiscing.
-									Volutpat est velit egestas dui id ornare. Laoreet id donec ultrices tincidunt arcu
-									non sodales neque. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus.
+									I am a Web Developer with a background in Audio Engineering and Education. My
+									strength in utilizing creative methods when analytical problem solving sets me apart
+									from others, as it allows me to find the most appropriate and effective approach to
+									solving issues. In addition to problem solving, my tenacity in educational
+									leadership requires diligence when targeting the best approach to teaching an
+									individual, as catering to an individual's needs is essential. I always try to keep
+									a positive attitude, and with strong communication, patience, love and support, I
+									strive to always learn more. Coding has taught me how to create, design, and produce
+									full stack web applications. I am optimistically enthusiastic for furthering my
+									knowledge in the web development industry.
 								</p>
 							</div>
 						</div>

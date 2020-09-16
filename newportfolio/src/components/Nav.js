@@ -1,4 +1,9 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fab);
 
 function Nav() {
 	return (
@@ -22,32 +27,36 @@ function Nav() {
 				<ul className='navbar-nav'>
 					<li className='nav-item active'>
 						<a className='nav-link' href='#header'>
-							<span className='material-icons'>home</span>
-							<span className='d-none d-md-inline'>Home</span>
+							{/* <span className='material-icons'>home</span> */}
+							{/* <span className='nav-header'>Home</span> */}
+							Home
 						</a>
 					</li>
 					<li className='nav-item active'>
 						<a className='nav-link' href='#about'>
-							<span className='material-icons'>queue_music</span>{' '}
-							<span className='d-none d-md-inline'>About</span>
+							About
+							{/* <span className='nav-header'>About</span> */}
 						</a>
 					</li>
 					<li className='nav-item active'>
 						<a className='nav-link' href='#portfolio'>
-							<span className='material-icons'>post_add</span>{' '}
-							<span className='d-none d-md-inline'>Portfolio</span>
+							Portfolio
+							{/* <span className='material-icons'>post_add</span>{' '} */}
+							{/* <span className='nav-header'>Portfolio</span> */}
 						</a>
 					</li>
 					<li className='nav-item active'>
 						<a className='nav-link' href='#technologies'>
-							<span className='material-icons'>local_offer</span>{' '}
-							<span className='d-none d-md-inline'>Technologies</span>
+							Technologies
+							{/* <span className='material-icons'>local_offer</span>{' '} */}
+							{/* <span className='nav-header'>Technologies</span> */}
 						</a>
 					</li>
 					<li className='nav-item active'>
 						<a className='nav-link' href='#contact'>
-							<span className='material-icons'>comment</span>{' '}
-							<span className='d-none d-md-inline'>Contact</span>
+							Contact
+							{/* <span className='material-icons'>comment</span>{' '} */}
+							{/* <span className='nav-header'>Contact</span> */}
 						</a>
 					</li>
 				</ul>
