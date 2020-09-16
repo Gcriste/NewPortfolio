@@ -34,22 +34,9 @@
 	"eslintConfig": {
 		"extends": "react-app"
 	},
-	"main": "server.js",
 	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	},
-	"engines": {
-		"node": "12.16.2",
-		"npm": "6.x"
+		"production": [ ">0.2%", "not dead", "not op_mini all" ],
+		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
 	},
 	"description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
 	"devDependencies": {},
