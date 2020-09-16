@@ -37,6 +37,16 @@ main {
 }
 /*------------------------------------------------------------------------------------------*/
 /* nav section */
+.header-title {
+	/* animation-name: title;
+	animation-duration: 35s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse; */
+	margin-bottom: 0px;
+	margin-top: 140px;
+	color: black;
+}
+
 .navbar-collapse {
 	display: flex;
 	justify-content: flex-end;
@@ -49,13 +59,7 @@ main {
 .navbar span {
 	color: black;
 }
-.header-title {
-	/* animation-name: title;
-	animation-duration: 35s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate-reverse; */
-	color: black;
-}
+
 ul {
 	margin: 150px auto 0;
 	padding: 0;
@@ -347,6 +351,8 @@ span:hover:after {
 	margin-top: 20px;
 	padding: 20px;
 	border-radius: 15px;
+	position: absolute;
+	bottom: 5em;
 }
 
 .profile-picture-container {
@@ -366,13 +372,17 @@ span:hover:after {
 	transform: scale(1.05);
 }
 
+.resume {
+	font-size: 20px;
+}
+
 .contact-icon-container {
 	text-align: center;
 	margin-top: 2em;
 }
 
 .contact-icon {
-	font-size: 75px;
+	font-size: 65px;
 	color: black;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
@@ -385,7 +395,7 @@ span:hover:after {
 	color: black;
 	margin-left: 1.5em;
 	margin-right: 1.5em;
-	font-size: 20px;
+	font-size: 18px;
 }
 /*------------------------------------------------------------------------------------------*/
 /* footer section */

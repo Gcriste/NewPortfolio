@@ -3,13 +3,14 @@ import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import Pdf from './assets/resume.pdf';
 
 library.add(fab);
 
 function Contact() {
 	return (
 		<Fade left big cascade>
-			<div id='contact'>
+			{/* <div id='contact'>
 				<div className='container contact-container'>
 					<div className='row'>
 						<div className='col-md-6 offset-md-1 col-12'>
@@ -27,6 +28,11 @@ function Contact() {
 
 								<div class='contact-icon-container'>
 									<div className='row'>
+										<div className='col-md-12 col-12 text-center'>
+											<a className='resume' target='_blank' href={Pdf}>
+												Resume
+											</a>
+										</div>
 										<div className='col-md-12'>
 											<a className='hvr-grow' href='tel:443651958'>
 												<span class='material-icons contact-icon'>call</span>
@@ -40,19 +46,22 @@ function Contact() {
 										<div className='row'>
 											<div className='col-md-12'>
 												<div className='social-container'>
-													<a href='www.linkedin.com'>
+													<a
+														href='https://www.linkedin.com/in/griffin-criste-2ba72b148/'
+														target='_blank'
+													>
 														<FontAwesomeIcon
 															className='hvr-grow social-icon'
 															icon={[ 'fab', 'linkedin' ]}
 														/>
 													</a>
-													<a href='www.instagram.com'>
+													<a href='https://www.instagram.com/gcriste/?hl=en' target='_blank'>
 														<FontAwesomeIcon
 															className='hvr-grow social-icon'
 															icon={[ 'fab', 'instagram' ]}
 														/>
 													</a>
-													<a href='www.facebook.com'>
+													<a href='www.facebook.com' target='_blank'>
 														<FontAwesomeIcon
 															className='hvr-grow social-icon'
 															icon={[ 'fab', 'facebook-square' ]}
@@ -67,7 +76,7 @@ function Contact() {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</Fade>
 	);
 }
