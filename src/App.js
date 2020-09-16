@@ -16,13 +16,13 @@ function App() {
 	return (
 		<Router>
 			<div class='body-container'>
-				<Nav />
-				<Header />
-				<About />
-				<Portfolio />
-				<Technologies />
-				<Contact />
-				<Footer />
+				<Nav exact path='/#nav' component={Nav} />
+				<Header exact path='/#header' component={Header} />
+				<About exact path='/#about' component={About} />
+				<Portfolio exact path='/#portfolio' component={Portfolio} />
+				<Technologies exact path='/#technologies' component={Technologies} />
+				<Contact exact path='/#contact' component={Contact} />
+				<Footer exact path='/#footer' component={Footer} />
 				<Switch>
 					{/* <Route exact path='/' component={Nav} /> */}
 					{/* <Route component={NoMatch} /> */}
