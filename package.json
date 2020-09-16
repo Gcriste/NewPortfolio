@@ -2,6 +2,10 @@
 	"name": "newportfolio",
 	"version": "0.1.0",
 	"private": true,
+	"engines": {
+		"node": "12.x",
+		"npm": "6.x"
+	},
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^1.2.30",
 		"@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -12,6 +16,7 @@
 		"@testing-library/react": "^9.5.0",
 		"@testing-library/user-event": "^7.2.1",
 		"express": "^4.17.1",
+		"foobar": "1.1.0",
 		"hover.css": "^2.3.2",
 		"jquery": "^3.5.1",
 		"path": "^0.12.7",
@@ -22,7 +27,7 @@
 		"react-scripts": "3.4.1"
 	},
 	"scripts": {
-		"start": "node server/server.js",
+		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
@@ -32,7 +37,15 @@
 	},
 	"main": "index.js",
 	"browserslist": {
-		"production": [ ">0.2%", "not dead", "not op_mini all" ],
-		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	}
 }
