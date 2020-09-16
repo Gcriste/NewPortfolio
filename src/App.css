@@ -82,6 +82,8 @@ li {
 	display: inline-block;
 	padding: 15px 20px;
 	position: relative;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 .nav-link:after {
 	background: none repeat scroll 0 0 transparent;
