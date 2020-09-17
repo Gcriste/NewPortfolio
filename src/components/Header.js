@@ -15,8 +15,10 @@ function Header() {
 							<span content='m'>m</span>
 							<span content='e'>e</span>
 						</div>
-						<div // style={{ backgroundImage: 'url(' + require('./assets/coding.jpg') + ')' }}
-						className='heroImageTop expand-lg' />
+						<div className='heroImageTop expand-lg' />
+
+						{/* // style={{ backgroundImage: 'url(' + require('./assets/coding.jpg') + ')' }} */}
+						<div className='about-top' />
 					</div>
 				</div>
 			</div>

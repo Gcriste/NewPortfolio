@@ -10,33 +10,14 @@ library.add(fab);
 function Footer() {
 	return (
 		<div id='footer'>
-			<div
-				style={{ backgroundImage: 'url(' + require('./assets/coding3.jpg') + ')' }}
-				className='heroImage expand-lg'
-			/>
 			<Fade left big cascade>
 				<div className='container-fluid hero-container'>
 					<div className='row'>
 						<div className='col-md-8 offset-md-4 col-12'>
 							<div className='card contact-card'>
 								<h2 className='text-center contact-header'>CONTACT</h2>
-								<div className='profile-picture-container'>
-									<a href='mailto:griffincriste@gmail.com'>
-										<img
-											alt='profile-pic'
-											className='profile-picture'
-											src={require('./assets/profilepicture.png')}
-										/>
-									</a>
-								</div>
-
-								<div class='contact-icon-container'>
+								<div className='profile-picture-container text-center'>
 									<div className='row'>
-										<div className='col-md-12 col-12 text-center'>
-											<a className='resume' target='_blank' href={Pdf}>
-												Resume
-											</a>
-										</div>
 										<div className='col-md-12'>
 											<a className='hvr-grow' href='tel:443651958'>
 												<span class='material-icons contact-icon'>call</span>
@@ -44,6 +25,29 @@ function Footer() {
 											<a className='hvr-grow' href='mailto:griffincriste@gmail.com'>
 												<span class='material-icons contact-icon '>email</span>
 											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class='contact-icon-container'>
+									<div className='row'>
+										<div className='col-md-12 col-12 text-center'>
+											<a href='mailto:griffincriste@gmail.com'>
+												<img
+													alt='profile-pic'
+													className='profile-picture'
+													src={require('./assets/profilepicture.png')}
+												/>
+											</a>
+										</div>
+									</div>
+									<div className='resume-container'>
+										<div className=''>
+											<div className='col-md-12 col-12'>
+												<a className='resume' target='_blank' href={Pdf}>
+													Resume
+												</a>
+											</div>
 										</div>
 									</div>
 									<div className='social-media-container'>
@@ -81,6 +85,10 @@ function Footer() {
 					</div>
 				</div>
 			</Fade>
+			<div
+				style={{ backgroundImage: 'url(' + require('./assets/coding3.jpg') + ')' }}
+				className='heroImage expand-lg'
+			/>
 		</div>
 	);
 }
