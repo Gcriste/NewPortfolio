@@ -13,7 +13,7 @@ function Footer() {
 			<Fade left big cascade>
 				<div className='container-fluid hero-container'>
 					<div className='row'>
-						<div className='col-md-10 offset-md-2 col-12'>
+						<div className='col-md-8 offset-md-4 col-12'>
 							<div className='card contact-card'>
 								<h2 className='text-center contact-header'>CONTACT</h2>
 								<div className='profile-picture-container text-center'>
