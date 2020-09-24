@@ -1,1 +1,1 @@
-## New portfolio created with React
+## New portfolio created with React app
