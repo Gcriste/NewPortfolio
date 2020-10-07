@@ -55,6 +55,7 @@ main {
 	text-align: right;
 }
 .navbar {
+	height: 30vh;
 	background-image: linear-gradient(#fff, grey);
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
 }
