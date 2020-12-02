@@ -1,5 +1,5 @@
 
-# My Portfolio
+# Personal Portfolio
 ---
 
 ## Deployable Link
