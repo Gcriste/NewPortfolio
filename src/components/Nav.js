@@ -7,7 +7,7 @@ library.add(fab);
 
 function Nav() {
 	return (
-		<nav className='navbar navbar-expand-lg navbar-dark'>
+		<nav className='heroImageTop navbar navbar-expand-lg navbar-dark'>
 			<a className='navbar-brand' href='/'>
 				<h2 className='header-title'>Griffin Criste</h2>
 			</a>

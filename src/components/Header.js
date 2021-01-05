@@ -7,15 +7,29 @@ function Header() {
 				<div className='row'>
 					<div className='col-md-12 col-12'>
 						<div className='header-title-container'>
-							<span content='W'>W</span>
-							<span content='e'>e</span>
-							<span content='l'>l</span>
-							<span content='c'>c</span>
-							<span content='o'>o</span>
-							<span content='m'>m</span>
-							<span content='e'>e</span>
+							<span className='welcome-letter' content='W'>
+								W
+							</span>
+							<span className='welcome-letter' content='e'>
+								e
+							</span>
+							<span className='welcome-letter' content='l'>
+								l
+							</span>
+							<span className='welcome-letter' content='c'>
+								c
+							</span>
+							<span className='welcome-letter' content='o'>
+								o
+							</span>
+							<span className='welcome-letter' content='m'>
+								m
+							</span>
+							<span className='welcome-letter' content='e'>
+								e
+							</span>
 						</div>
-						<div className='heroImageTop expand-lg' />
+						<div className=' welcome-container expand-lg' />
 
 						{/* // style={{ backgroundImage: 'url(' + require('./assets/coding.jpg') + ')' }} */}
 						<div className='about-top' />
