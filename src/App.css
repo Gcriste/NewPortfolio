@@ -153,16 +153,16 @@ span:hover:after {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 140vh;
+	height: 100vh;
 	width: 100vw;
-	/* background: linear-gradient(-181deg, white 20%, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-	background: linear-gradient(-45deg, #1755a6, #023e73, #03658c, #41e1f2, white);
+	background: linear-gradient(-181deg, white 20%, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	/* background: linear-gradient(-45deg, #1755a6, #023e73, #03658c, #41e1f2, white); */
 	background-size: 400% 400%;
-	/* animation: AnimationName 25s ease infinite; */
+	animation: AnimationName 25s ease infinite;
 }
 
 .about-top {
-	height: 50vh;
+	height: 20vh;
 	/* background: linear-gradient(359deg, white 70%, grey);
 	animation: AnimationName 25s ease infinite; */
 	/* -webkit-animation: AnimationName 30s ease infinite;

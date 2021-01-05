@@ -84,8 +84,8 @@ function Nav() {
 																</a>{' '} */}
 															</div>
 															<p className='app-description'>
-																A google search app that searches the google api for
-																books.
+																A website built using squarespace, javascript, css and
+																more for a Rural Community Credit Union.
 															</p>
 														</div>
 													</div>
