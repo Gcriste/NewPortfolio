@@ -51,7 +51,7 @@ function About() {
 							<Fade right big cascade>
 								<div className='col-md-6 offset-md-1 col-12'>
 									<div className=''>
-										<h2 className='text-center about-header'>ABOUT</h2>
+										<h2 className='text-center about-header '>ABOUT</h2>
 										<p>
 											I am a Web Developer with a background in Audio Engineering and Education.
 											My strength in utilizing creative methods when analytical problem solving

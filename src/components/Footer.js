@@ -60,19 +60,19 @@ function Footer() {
 													>
 														<FontAwesomeIcon
 															className='hvr-grow social-icon'
-															icon={[ 'fab', 'linkedin' ]}
+															icon={['fab', 'linkedin']}
 														/>
 													</a>
 													<a href='https://www.instagram.com/gcriste/?hl=en' target='_blank'>
 														<FontAwesomeIcon
 															className='hvr-grow social-icon'
-															icon={[ 'fab', 'instagram' ]}
+															icon={['fab', 'instagram']}
 														/>
 													</a>
 													<a href='www.facebook.com' target='_blank'>
 														<FontAwesomeIcon
 															className='hvr-grow social-icon'
-															icon={[ 'fab', 'facebook-square' ]}
+															icon={['fab', 'facebook-square']}
 														/>
 													</a>
 												</div>
@@ -86,7 +86,7 @@ function Footer() {
 				</div>
 			</Fade>
 			<div
-				style={{ backgroundImage: 'url(' + require('./assets/coding3.jpg') + ')' }}
+				style={{ backgroundImage: 'url(' + require('./assets/bg-small.jpg') + ')' }}
 				className='heroImage expand-lg'
 			/>
 		</div>

@@ -9,12 +9,12 @@ function Portfolio() {
 					<div className='row'>
 						<div className='col-md-12 col-12'>
 							<div className=''>
-								<h2 className='text-center portfolio-header'>PORTFOLIO</h2>
+								<h2 className='text-center portfolio-header block_title'>PORTFOLIO</h2>
 								<div className='className bg-2'>
 									<div className='container text-center'>
 										<div className='row'>
 											<div className='col-md-3 col-12'>
-												<div className='card well'>
+												<div className='card well portfolio-card'>
 													<div className='card-header'>
 														<h4 className='text-center card-title'>
 															<strong>Memory Game </strong>
@@ -54,7 +54,7 @@ function Portfolio() {
 												</div>
 											</div>
 											<div className='col-md-3 col-12'>
-												<div className='card well'>
+												<div className='card well portfolio-card'>
 													<div className='card-header'>
 														<h4 className='text-center card-title'>
 															<strong>RCCU</strong>
@@ -92,7 +92,7 @@ function Portfolio() {
 												</div>
 											</div>
 											<div className='col-md-3 col-12'>
-												<div className='card well'>
+												<div className='card well portfolio-card'>
 													<div className='card-header'>
 														<h4 className='text-center card-title'>
 															<strong>Gig Finder </strong>
@@ -132,7 +132,7 @@ function Portfolio() {
 												</div>
 											</div>
 											<div className='col-md-3 col-12'>
-												<div className='card well'>
+												<div className='card well portfolio-card'>
 													<div className='card-header'>
 														<h4 className='text-center card-title'>
 															<strong>Math Whiz</strong>
