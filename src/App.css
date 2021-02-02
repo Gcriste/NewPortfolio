@@ -10,7 +10,6 @@ main {
 	font-family: 'Kumbh Sans', sans-serif;
 	height: 100%;
 	width: 100%;
-	overflow-x: hidden;
 }
 .about-header,
 .portfolio-header,
@@ -126,7 +125,7 @@ li {
 	visibility: hidden;
 	opacity: 0;
 	position: absolute;
-	top: 35%;
+	top: 70%;
 	left: 0%;
 	text-align: center;
 	width: 100%;
@@ -708,7 +707,15 @@ header {
 /* ///////////////////////////////////////////////////////////////////// 
 //  04 - Services
 /////////////////////////////////////////////////////////////////////*/
-
+.service-card {
+	padding: 30px;
+}
+.profile-pic {
+	border-radius: 50%;
+	width: 100%;
+	height: 275px;
+	margin-top: 40%;
+}
 .services {
 	max-width: 293px;
 	height: 263px;
@@ -1019,21 +1026,21 @@ header {
 .social-icons a:hover {
 	background-position: 0px -50px;
 }
-/* .facebook {
-	background-image: url(../images/facebook.png);
+.facebook {
+	background-image: url(./components/assets/facebook.png);
 }
 .twitter {
-	background-image: url(../images/twitter.png);
+	background-image: url(./components/assets/twitter.png);
 }
 .google-plus {
-	background-image: url(../images/google-plus.png);
+	/* background-image: url(./components/assets/google-plus.png); */
 }
 .linkedin {
-	background-image: url(../images/linkedin.png);
+	background-image: url(./components/assets/linkedin.png);
 }
 .wordpress {
-	background-image: url(../images/wordpress.png);
-} */
+	background-image: url(./components/assets/wordpress.png);
+}
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  08 - Footer 
