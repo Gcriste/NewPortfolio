@@ -1,7 +1,7 @@
 import React from 'react';
 import Slide from 'react-reveal/Slide';
 
-function Nav() {
+function Portfolio() {
 	return (
 		<Slide bottom cascade>
 			<div id='portfolio'>
@@ -184,4 +184,4 @@ function Nav() {
 	);
 }
 
-export default Nav;
+export default Portfolio;

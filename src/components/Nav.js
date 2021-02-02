@@ -9,7 +9,7 @@ function Nav() {
 	return (
 		<nav className='heroImageTop navbar navbar-expand-lg navbar-dark'>
 			<a className='navbar-brand' href='/'>
-				<h2 className='header-title'>Griffin Criste</h2>
+				{/* <h2 className='header-title'>Griffin Criste</h2> */}
 			</a>
 
 			<button
@@ -24,7 +24,7 @@ function Nav() {
 				<span className='navbar-toggler-icon' />
 			</button>
 			<div className='collapse navbar-collapse' id='navbarNav'>
-				<ul className='navbar-nav'>
+				<ul className='navbar-nav text-center'>
 					<li className='nav-item active'>
 						<a className='nav-link' href='#header'>
 							{/* <span className='material-icons'>home</span> */}
