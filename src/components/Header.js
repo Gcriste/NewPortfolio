@@ -7,7 +7,7 @@ function Header() {
 				<div className='header-title-container'>
 					<h1 class='bigheadline'>Griffin Criste</h1>
 					<h4 class='subheadline'>
-						<em>Slogan here</em>
+						<em>Front End Web Developer</em>
 					</h4>
 				</div>
 			</div>
