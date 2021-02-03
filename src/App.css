@@ -58,6 +58,7 @@ main {
 	/* background-color: white; */
 
 	height: 132vh;
+	padding-top: 50px;
 }
 #footer {
 	background: linear-gradient(180deg, darkgrey, white 93%);
