@@ -24,7 +24,7 @@ main {
 }
 .contact-header {
 	color: white;
-	margin-top: 50px;
+	margin-top: 0px;
 }
 .body-container {
 	/* background-image: linear-gradient(#05c7f2, #fff, #011126); */
@@ -39,12 +39,16 @@ main {
 }
 #technology {
 	background: linear-gradient(180deg, white, darkgrey 93%);
+	/* background-color: white; */
 	margin-top: 50px;
 	height: 80vh;
+	/* margin-bottom: 20vh; */
+	/* background: url('./components/assets/texture2.jpg'); */
 }
 #portfolio {
 	/* background: linear-gradient(#000524, white); */
-	background-color: #000524;
+	/* background-color: #000524; */
+	background: url('./components/assets/texture2.jpg');
 	/* background: url('./components/assets/bg-small.jpg'), linear-gradient(blue, white);
 	background-color: blue; */
 	/* background-color: white; */
@@ -53,7 +57,7 @@ main {
 }
 #footer {
 	background: linear-gradient(180deg, darkgrey, white 93%);
-	height: 90vh;
+	height: 100vh;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -147,12 +151,23 @@ li {
 		top: 25% !important;
 		left: 0% !important;
 	}
+	#about {
+		height: auto;
+		padding-bottom: 50px;
+	}
 	#portfolio {
-		margin-top: 550px;
+		/* margin-top: 550px; */
+		height: auto;
+		padding-bottom: 100px;
 	}
 
 	#technology {
-		margin-top: 550px;
+		/* margin-top: 550px; */
+		height: auto;
+		padding-bottom: 50px;
+	}
+	#footer {
+		height: auto;
 	}
 	.contact-card {
 		left: 0% !important;
@@ -227,6 +242,7 @@ span:hover:after {
 	/* background: linear-gradient(-45deg, #1755a6, #023e73, #03658c, #41e1f2, white); */
 	background-size: 400% 400%;
 	animation: AnimationName 25s ease infinite;
+	z-index: 2;
 }
 
 .welcome-container {
@@ -479,6 +495,7 @@ span:hover:after {
 }
 /*------------------------------------------------------------------------------------------*/
 /* contact section */
+
 .copyright-container {
 	position: absolute;
 	bottom: 0;
@@ -490,13 +507,14 @@ span:hover:after {
 	color: white;
 }
 #footer {
+	padding-top: 50px;
 	background-image: url('./components/assets/bg-small.jpg');
 	height: 130vh;
 	width: 100%;
 }
 .contact-container {
-	/* margin-top: 50px;
-	margin-bottom: 500px; */
+	/* margin-top: 50px; */
+	/* margin-bottom: 500px;  */
 }
 .contact-card {
 	box-shadow: 0px 3px 6px grey, 0px 3px 6px grey;
@@ -508,9 +526,12 @@ span:hover:after {
 	left: 35%;
 }
 
-.profile-picture-container {
+/* .profile-picture-container {
 	display: flex;
 	justify-content: center;
+} */
+.personal-info {
+	color: white;
 }
 
 .profile-picture {
@@ -534,7 +555,10 @@ span:hover:after {
 .resume {
 	font-size: 20px;
 }
-
+.resume-container {
+	border: 20px solid grey;
+	padding: 10px 20px;
+}
 .contact-icon-container {
 	text-align: center;
 	margin-top: 2em;
@@ -542,11 +566,15 @@ span:hover:after {
 
 .contact-icon {
 	font-size: 65px;
-	color: black;
+	/* color: black; */
+	color: white;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
 }
 
+.social-icon {
+	color: white;
+}
 .contact-icon:hover {
 	color: #0087e5;
 }
