@@ -11,14 +11,14 @@ function Footer() {
 	return (
 		<div id='footer'>
 			<Fade left big cascade>
-				<div className='container-fluid hero-container'>
+				<div className='container contact-container'>
 					<div className='row'>
-						<div className='col-md-8 offset-md-4 col-12'>
+						<div className='col-md-12 text-center col-12'>
+							<h2 className='text-center contact-header block_title'>Contact</h2>
 							<div className='card contact-card'>
-								<h2 className='text-center contact-header'>CONTACT</h2>
 								<div className='profile-picture-container text-center'>
 									<div className='row'>
-										<div className='col-md-12'>
+										<div className='col-md-6 offset-md-3'>
 											<a className='hvr-grow' href='tel:443651958'>
 												<span class='material-icons contact-icon'>call</span>
 											</a>
@@ -86,9 +86,13 @@ function Footer() {
 				</div>
 			</Fade>
 			<div
-				style={{ backgroundImage: 'url(' + require('./assets/bg-small.jpg') + ')' }}
-				className='heroImage expand-lg'
+			// style={{ backgroundImage: 'url(' + require('./assets/bg-small.jpg') + ')' }}
+			// className='heroImage expand-lg'
 			/>
+			{/* <div className='copyright-container'>
+				<hr />
+				<p className='copyright-text'> @Copyright Griffin Criste</p>
+			</div> */}
 		</div>
 	);
 }

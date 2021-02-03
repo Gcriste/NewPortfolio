@@ -9,7 +9,7 @@ function Portfolio() {
 					<div className='row'>
 						<div className='col-md-12 col-12'>
 							<div className=''>
-								<h2 className='text-center portfolio-header block_title'>PORTFOLIO</h2>
+								<h2 className='text-center portfolio-header block_title'>Portfolio</h2>
 								<div className='className bg-2'>
 									<div className='container text-center'>
 										<div className='row'>

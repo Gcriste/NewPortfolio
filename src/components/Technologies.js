@@ -13,7 +13,7 @@ function Technologies() {
 				<div className='container technology-container'>
 					<div className='row'>
 						<div className='col-md-12 text-center'>
-							<h2 className='text-center technology-header block_title'>TECHNOLOGIES</h2>
+							<h2 className='text-center technology-header block_title'>Technologies</h2>
 
 							<div className='col-md-8 offset-md-4'>
 								<div className='card technology-card'>
