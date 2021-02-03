@@ -140,7 +140,7 @@ function Footer() {
 									<div className='col-md-12'>
 										<div className='social-container'>
 											<h4 className='personal-info'>Social links</h4>
-											<a href='github.com/gcriste' target='_blank'>
+											<a href='https://www.github.com/gcriste' target='_blank'>
 												<FontAwesomeIcon
 													className='hvr-grow social-icon'
 													icon={['fab', 'github']}
