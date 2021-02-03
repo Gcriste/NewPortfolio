@@ -18,6 +18,10 @@ main {
 	font-size: 40px;
 	margin-bottom: 1em;
 }
+.portfolio-header {
+	color: white;
+	/* color: black; */
+}
 .contact-header {
 	color: white;
 	margin-top: 50px;
@@ -29,17 +33,29 @@ main {
 	box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .3); */
 }
 
-#about,
-#technology {
+#about {
 	background: linear-gradient(180deg, white, darkgrey 93%);
 	height: 100vh;
 }
-
-#contact,
+#technology {
+	background: linear-gradient(180deg, white, darkgrey 93%);
+	margin-top: 50px;
+	height: 80vh;
+}
 #portfolio {
-	background: linear-gradient(180deg, darkgrey, white 93%);
+	/* background: linear-gradient(#000524, white); */
+	background-color: #000524;
+	/* background: url('./components/assets/bg-small.jpg'), linear-gradient(blue, white);
+	background-color: blue; */
+	/* background-color: white; */
+
 	height: 100vh;
 }
+#footer {
+	background: linear-gradient(180deg, darkgrey, white 93%);
+	height: 90vh;
+}
+
 /*------------------------------------------------------------------------------------------*/
 /* nav section */
 .header-title {
@@ -207,7 +223,7 @@ span:hover:after {
 	background-position: center;
 	/* height: 100vh; */
 	width: 100vw;
-	background: linear-gradient(-181deg, white 20%, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-181deg, grey 20%, #23a6d5, #23d5ab);
 	/* background: linear-gradient(-45deg, #1755a6, #023e73, #03658c, #41e1f2, white); */
 	background-size: 400% 400%;
 	animation: AnimationName 25s ease infinite;
