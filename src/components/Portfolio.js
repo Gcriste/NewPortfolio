@@ -17,7 +17,7 @@ function Portfolio() {
 												<div className='card well portfolio-card'>
 													<div className='card-header'>
 														<h4 className='text-center card-title'>
-															<strong>GOT Game </strong>
+															<strong>GOT Game</strong>
 														</h4>
 													</div>
 													<div className='card-body'>
