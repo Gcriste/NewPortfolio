@@ -22,7 +22,7 @@ function Footer() {
 									<div className='row'>
 										<div className='col-md-6 text-center'>
 											<a className='hvr-grow' href='tel:443651958'>
-												<p className='personal-info'>tel: (443) 465-1958 </p>
+												<p className='personal-info'>(443) 465-1958 </p>
 												<span class='material-icons contact-icon'>call</span>
 											</a>
 										</div>
