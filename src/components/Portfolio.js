@@ -78,10 +78,6 @@ function Portfolio() {
 																	{' '}
 																	<h5>Live Link</h5>
 																</a>{' '}
-																{/* <a href='/' className='portfolio-link'>
-																	{' '}
-																	<h5>GitHub Link </h5>
-																</a>{' '} */}
 															</div>
 															<p className='app-description'>
 																A website built using squarespace, javascript, css and
