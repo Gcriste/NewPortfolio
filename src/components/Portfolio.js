@@ -80,8 +80,9 @@ function Portfolio() {
 																</a>{' '}
 															</div>
 															<p className='app-description'>
-																A website built using squarespace, javascript, css and
-																more for a Rural Community Credit Union.
+																A website built for Rural Community Credit Union that
+																uses technologies such as squarespace, javascript, css
+																and more.
 															</p>
 														</div>
 													</div>
