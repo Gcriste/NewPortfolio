@@ -122,7 +122,7 @@ function Portfolio() {
 															</div>
 															<p className='app-description'>
 																A Gig Finder app that helps musicians find available
-																gigs.
+																future gigs.
 															</p>
 														</div>
 													</div>
