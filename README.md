@@ -1,5 +1,5 @@
 
-# Griffin's Personal Portfolio
+# Griffin's Portfolio
 ---
 
 ## Deployable Link
