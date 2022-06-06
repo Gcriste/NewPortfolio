@@ -49,8 +49,10 @@ function Portfolio() {
                               </div>
                               <p className='app-description'>
                                 {' '}
-                                Simple memory game based on the theme of Game of
-                                Thrones
+                                A weather app that uses the Open Weather API to
+                                display current and future weather based on a
+                                city searched by the user. Uses technologies
+                                such as React, Javascript, CSS, etc.
                               </p>
                             </div>
                           </div>
