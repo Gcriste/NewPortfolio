@@ -7,7 +7,7 @@ function Portfolio() {
       <div id='portfolio'>
         <div className='container portfolio-container'>
           <div className='row'>
-            <div className='col-md-12 col-12'>
+            <div className='col-lg-12 col-12'>
               <div className=''>
                 <h2 className='text-center portfolio-header block_title'>
                   Portfolio
@@ -15,7 +15,7 @@ function Portfolio() {
                 <div className='className bg-2'>
                   <div className='container text-center'>
                     <div className='row'>
-                      <div className='col-md-3 col-12'>
+                      <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
                         <div className='card well portfolio-card'>
                           <div className='card-header'>
                             <h4 className='text-center card-title'>
@@ -26,7 +26,7 @@ function Portfolio() {
                             <a href='#demo2' data-toggle='collapse'>
                               <img
                                 src={require('./assets/weather-app-three.png')}
-                                className='app img-fluid'
+                                className='app img-fluid hvr-fade'
                                 alt='pic of weather app'
                               />
                             </a>
@@ -58,7 +58,7 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
-                      <div className='col-md-3 col-12'>
+                      <div className='col-lg-3 col-sm-6 col-12 image-wrapper '>
                         <div className='card well portfolio-card'>
                           <div className='card-header'>
                             <h4 className='text-center card-title'>
@@ -69,7 +69,7 @@ function Portfolio() {
                             <a href='#demo' data-toggle='collapse'>
                               <img
                                 src={require('./assets/RCCU.png')}
-                                className='app img-fluid'
+                                className='app img-fluid hvr-fade'
                                 alt='pic of Google'
                               />
                             </a>
@@ -93,7 +93,7 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
-                      <div className='col-md-3 col-12'>
+                      <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
                         <div className='card well portfolio-card'>
                           <div className='card-header'>
                             <h4 className='text-center card-title'>
@@ -104,7 +104,7 @@ function Portfolio() {
                             <a href='#demo3' data-toggle='collapse'>
                               <img
                                 src={require('./assets/GigFinder.png')}
-                                className='app img-fluid'
+                                className='app img-fluid hvr-fade'
                                 alt='pic of gigfinder'
                               />
                             </a>
@@ -133,7 +133,7 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
-                      <div className='col-md-3 col-12'>
+                      <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
                         <div className='card well portfolio-card'>
                           <div className='card-header'>
                             <h4 className='text-center card-title'>
@@ -144,7 +144,7 @@ function Portfolio() {
                             <a href='#demo4' data-toggle='collapse'>
                               <img
                                 src={require('./assets/MathWhiz.png')}
-                                className='app img-fluid'
+                                className='app img-fluid hvr-fade'
                                 alt='pic of budget'
                               />
                             </a>
