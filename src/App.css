@@ -66,7 +66,6 @@ main {
 }
 #footer {
   background: linear-gradient(180deg, darkgrey, white 93%);
-  height: 100vh;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -409,6 +408,16 @@ span:hover:after {
   transform: scale(1.05);
 }
 
+.portfolio-secondary-header {
+  color: white;
+
+  padding-bottom: 20px;
+}
+
+.top-portfolio-section {
+  margin-bottom: 60px;
+}
+
 /* .col-md-3 .card::before,
 .col-md-3 .card::after {
 	position: absolute;
@@ -540,8 +549,8 @@ span:hover:after {
 #footer {
   padding-top: 50px;
   background-image: url('./components/assets/bg-small.jpg');
-  height: 130vh;
   width: 100%;
+  padding-bottom: 50px;
 }
 .contact-container {
   /* margin-top: 50px; */
@@ -1207,6 +1216,9 @@ footer {
   }
   .subheadline {
     font-size: 5em;
+  }
+  .app {
+    object-fit: fill;
   }
 }
 

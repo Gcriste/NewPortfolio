@@ -14,6 +14,79 @@ function Portfolio() {
                 </h2>
                 <div className='className bg-2'>
                   <div className='container text-center'>
+                    <h3 className='portfolio-secondary-header'>Websites</h3>
+                    <div className='row top-portfolio-section'>
+                      <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
+                        <div className='card well portfolio-card'>
+                          <div className='card-header'>
+                            <h4 className='text-center card-title'>
+                              <strong>HCA Hospital</strong>
+                            </h4>
+                          </div>
+                          <div className='card-body'>
+                            <a href='#demo2' data-toggle='collapse'>
+                              <img
+                                src={require('./assets/tristar.png')}
+                                className='app img-fluid'
+                                alt='pic of tristar hospital'
+                              />
+                            </a>
+                            <div id='demo2' className='collapse'>
+                              {' '}
+                              <div className='link-container'>
+                                <a
+                                  href='https://tristarhealth.com/locations/tristar-centennial/'
+                                  className='portfolio-link'
+                                >
+                                  <h5>Live Link</h5>
+                                </a>{' '}
+                              </div>
+                              <p className='app-description'>
+                                {' '}
+                                A Nashville hospital website showing information
+                                for potential visitors.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className='col-lg-3 col-sm-6 col-12'>
+                        <div className='card well portfolio-card'>
+                          <div className='card-header'>
+                            <h4 className='text-center card-title'>
+                              <strong>RCCU</strong>
+                            </h4>
+                          </div>
+                          <div className='card-body'>
+                            <a href='#demo' data-toggle='collapse'>
+                              <img
+                                src={require('./assets/RCCU.png')}
+                                className='app img-fluid'
+                                alt='pic of Google'
+                              />
+                            </a>
+                            <div id='demo' className='collapse'>
+                              {' '}
+                              <div className='link-container'>
+                                <a
+                                  href='https://www.rccu.com/'
+                                  className='portfolio-link'
+                                >
+                                  {' '}
+                                  <h5>Live Link</h5>
+                                </a>{' '}
+                              </div>
+                              <p className='app-description'>
+                                A website built for Rural Community Credit Union
+                                that uses technologies such as squarespace,
+                                javascript, css and more.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h3 className='portfolio-secondary-header'>Applications</h3>
                     <div className='row'>
                       <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
                         <div className='card well portfolio-card'>
@@ -26,7 +99,7 @@ function Portfolio() {
                             <a href='#demo2' data-toggle='collapse'>
                               <img
                                 src={require('./assets/weather-app-three.png')}
-                                className='app img-fluid hvr-fade'
+                                className='app img-fluid'
                                 alt='pic of weather app'
                               />
                             </a>
@@ -58,18 +131,18 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
-                      <div className='col-lg-3 col-sm-6 col-12 image-wrapper '>
+                      <div className='col-lg-3 col-sm-6 col-12'>
                         <div className='card well portfolio-card'>
                           <div className='card-header'>
                             <h4 className='text-center card-title'>
-                              <strong>RCCU</strong>
+                              <strong>Tic-Tac-Toe</strong>
                             </h4>
                           </div>
                           <div className='card-body'>
                             <a href='#demo' data-toggle='collapse'>
                               <img
-                                src={require('./assets/RCCU.png')}
-                                className='app img-fluid hvr-fade'
+                                src={require('./assets/tictactoe.png')}
+                                className='app img-fluid'
                                 alt='pic of Google'
                               />
                             </a>
@@ -77,11 +150,18 @@ function Portfolio() {
                               {' '}
                               <div className='link-container'>
                                 <a
-                                  href='https://www.rccu.com/'
+                                  href='https://griffins-tic-tac-toe.netlify.app/'
                                   className='portfolio-link'
                                 >
                                   {' '}
                                   <h5>Live Link</h5>
+                                </a>{' '}
+                                <a
+                                  href='https://github.com/Gcriste/Tic-tac-toe'
+                                  className='portfolio-link'
+                                >
+                                  {' '}
+                                  <h5>Github Link</h5>
                                 </a>{' '}
                               </div>
                               <p className='app-description'>
@@ -104,7 +184,7 @@ function Portfolio() {
                             <a href='#demo3' data-toggle='collapse'>
                               <img
                                 src={require('./assets/GigFinder.png')}
-                                className='app img-fluid hvr-fade'
+                                className='app img-fluid'
                                 alt='pic of gigfinder'
                               />
                             </a>
@@ -144,7 +224,7 @@ function Portfolio() {
                             <a href='#demo4' data-toggle='collapse'>
                               <img
                                 src={require('./assets/MathWhiz.png')}
-                                className='app img-fluid hvr-fade'
+                                className='app img-fluid'
                                 alt='pic of budget'
                               />
                             </a>
