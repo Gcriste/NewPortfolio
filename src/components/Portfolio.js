@@ -24,14 +24,14 @@ function Portfolio() {
                             </h4>
                           </div>
                           <div className='card-body'>
-                            <a href='#demo2' data-toggle='collapse'>
+                            <a href='#demo1' data-toggle='collapse'>
                               <img
-                                src={require('./assets/tristar.png')}
+                                src={require('./assets/tristar-new.png')}
                                 className='app img-fluid'
                                 alt='pic of tristar hospital'
                               />
                             </a>
-                            <div id='demo2' className='collapse'>
+                            <div id='demo1' className='collapse'>
                               {' '}
                               <div className='link-container'>
                                 <a
@@ -58,14 +58,14 @@ function Portfolio() {
                             </h4>
                           </div>
                           <div className='card-body'>
-                            <a href='#demo' data-toggle='collapse'>
+                            <a href='#demo2' data-toggle='collapse'>
                               <img
-                                src={require('./assets/RCCU.png')}
+                                src={require('./assets/rccu-new.png')}
                                 className='app img-fluid'
                                 alt='pic of Google'
                               />
                             </a>
-                            <div id='demo' className='collapse'>
+                            <div id='demo2' className='collapse'>
                               {' '}
                               <div className='link-container'>
                                 <a
@@ -85,6 +85,46 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
+                      <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
+                        <div className='card well portfolio-card'>
+                          <div className='card-header'>
+                            <h4 className='text-center card-title'>
+                              <strong>Band Website</strong>
+                            </h4>
+                          </div>
+                          <div className='card-body'>
+                            <a href='#demo3' data-toggle='collapse'>
+                              <img
+                                src={require('./assets/madgoodco-new.png')}
+                                className='app img-fluid'
+                                alt='pic of Maddie in Good Company'
+                              />
+                            </a>
+                            <div id='demo3' className='collapse'>
+                              {' '}
+                              <div className='link-container'>
+                                <a
+                                  href='https://www.maddieingoodcompany.com/'
+                                  className='portfolio-link'
+                                >
+                                  <h5>Live Link</h5>
+                                </a>{' '}
+                                <a
+                                  href='https://github.com/Gcriste/Maddie-in-Good-Company'
+                                  className='portfolio-link'
+                                >
+                                  <h5>Github Link</h5>
+                                </a>{' '}
+                              </div>
+                              <p className='app-description'>
+                                {' '}
+                                A band website for Maddie in Good Company -
+                                local band from Nashville, TN.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     <h3 className='portfolio-secondary-header'>Applications</h3>
                     <div className='row'>
@@ -96,14 +136,14 @@ function Portfolio() {
                             </h4>
                           </div>
                           <div className='card-body'>
-                            <a href='#demo2' data-toggle='collapse'>
+                            <a href='#demo4' data-toggle='collapse'>
                               <img
-                                src={require('./assets/weather-app-three.png')}
+                                src={require('./assets/weather-new.png')}
                                 className='app img-fluid'
                                 alt='pic of weather app'
                               />
                             </a>
-                            <div id='demo2' className='collapse'>
+                            <div id='demo4' className='collapse'>
                               {' '}
                               <div className='link-container'>
                                 <a
@@ -139,14 +179,14 @@ function Portfolio() {
                             </h4>
                           </div>
                           <div className='card-body'>
-                            <a href='#demo' data-toggle='collapse'>
+                            <a href='#demo5' data-toggle='collapse'>
                               <img
-                                src={require('./assets/tictactoe.png')}
+                                src={require('./assets/tic-tac-toe-new.png')}
                                 className='app img-fluid'
                                 alt='pic of Google'
                               />
                             </a>
-                            <div id='demo' className='collapse'>
+                            <div id='demo5' className='collapse'>
                               {' '}
                               <div className='link-container'>
                                 <a
@@ -181,14 +221,14 @@ function Portfolio() {
                             </h4>
                           </div>
                           <div className='card-body'>
-                            <a href='#demo3' data-toggle='collapse'>
+                            <a href='#demo6' data-toggle='collapse'>
                               <img
-                                src={require('./assets/GigFinder.png')}
+                                src={require('./assets/gig-finder-new.png')}
                                 className='app img-fluid'
                                 alt='pic of gigfinder'
                               />
                             </a>
-                            <div id='demo3' className='collapse'>
+                            <div id='demo6' className='collapse'>
                               {' '}
                               <div className='link-container'>
                                 <a
@@ -221,14 +261,14 @@ function Portfolio() {
                             </h4>
                           </div>
                           <div className='card-body'>
-                            <a href='#demo4' data-toggle='collapse'>
+                            <a href='#demo7' data-toggle='collapse'>
                               <img
-                                src={require('./assets/MathWhiz.png')}
+                                src={require('./assets/math-wiz-new.png')}
                                 className='app img-fluid'
                                 alt='pic of budget'
                               />
                             </a>
-                            <div id='demo4' className='collapse'>
+                            <div id='demo7' className='collapse'>
                               {' '}
                               <div className='link-container'>
                                 <a

@@ -205,6 +205,9 @@ li {
   left: 0%;
   text-align: center;
   width: 100%;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
 }
 /* .header-title-text {
 	font-size: 62px;
@@ -416,6 +419,8 @@ span:hover:after {
 
 .top-portfolio-section {
   margin-bottom: 60px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* .col-md-3 .card::before,
@@ -1217,8 +1222,12 @@ footer {
   .subheadline {
     font-size: 5em;
   }
+}
+@media all and (min-width: 1201px) {
   .app {
-    object-fit: fill;
+    width: 100%;
+    height: auto;
+    /* object-fit: none; */
   }
 }
 
