@@ -3,16 +3,16 @@ import Fade from 'react-reveal/Fade';
 
 function Portfolio() {
   return (
-    <Fade>
-      <div id='portfolio'>
-        <div className='container portfolio-container'>
-          <div className='row'>
-            <div className='col-lg-12 col-12'>
-              <div className=''>
-                <h2 className='text-center portfolio-header block_title'>
-                  Portfolio
-                </h2>
-                <div className='className bg-2'>
+    <div id='portfolio'>
+      <div className='container portfolio-container'>
+        <div className='row'>
+          <div className='col-lg-12 col-12'>
+            <div className=''>
+              <h2 className='text-center portfolio-header block_title'>
+                Portfolio
+              </h2>
+              <div className='className bg-2'>
+                <Fade>
                   <div className='container text-center'>
                     <h3 className='portfolio-secondary-header'>Websites</h3>
                     <div className='row top-portfolio-section'>
@@ -297,13 +297,13 @@ function Portfolio() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </Fade>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </Fade>
+    </div>
   );
 }
 
