@@ -1,9 +1,9 @@
 import React from 'react';
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 function Portfolio() {
   return (
-    <Slide bottom cascade>
+    <Fade>
       <div id='portfolio'>
         <div className='container portfolio-container'>
           <div className='row'>
@@ -303,7 +303,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
-    </Slide>
+    </Fade>
   );
 }
 
