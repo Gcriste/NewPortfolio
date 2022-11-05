@@ -3,14 +3,14 @@ import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import Pdf from './assets/resume.pdf';
+import Pdf from './assets/GriffinCristeResumeOctober2022.docx.pdf';
 
 library.add(fab);
 
 function Contact() {
-	return (
-		<Fade left big cascade>
-			{/* <div id='contact'>
+  return (
+    <Fade left big cascade>
+      {/* <div id='contact'>
 				<div className='container contact-container'>
 					<div className='row'>
 						<div className='col-md-6 offset-md-1 col-12'>
@@ -77,8 +77,8 @@ function Contact() {
 					</div>
 				</div>
 			</div> */}
-		</Fade>
-	);
+    </Fade>
+  );
 }
 
 export default Contact;

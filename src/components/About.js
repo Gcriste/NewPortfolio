@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import Pdf from './assets/GriffinCristeResumeJune2022.pdf';
+import Pdf from './assets/GriffinCristeResumeOctober2022.docx.pdf';
 library.add(fab);
 
 function About() {
@@ -55,7 +55,7 @@ function About() {
                   <div className=''>
                     <h2 className='text-center about-header '>ABOUT</h2>
                     <p>
-                      I am a Web Developer with a background in Audio
+                      I am a Software Developer with a background in Audio
                       Engineering and Education. I always try to keep a positive
                       attitude. Through strong communication, patience, love and
                       support, I strive to be the best developer I can be, while
