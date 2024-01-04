@@ -9,7 +9,7 @@ library.add(fab);
 function Technologies() {
   return (
     <Fade right cascade>
-      <div id='technology'>
+      <div id='technologies'>
         <div className='container technology-container'>
           <div className='row'>
             <div className='col-md-12 text-center'>

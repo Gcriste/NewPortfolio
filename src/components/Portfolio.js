@@ -127,7 +127,7 @@ function Portfolio() {
                       </div>
                     </div>
                     <h3 className='portfolio-secondary-header'>Applications</h3>
-                    <div className='row'>
+                    <div className='row top-portfolio-section'>
                       <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
                         <div className='card well portfolio-card'>
                           <div className='card-header'>
@@ -162,10 +162,10 @@ function Portfolio() {
                               </div>
                               <p className='app-description'>
                                 {' '}
-                                A weather app that uses the Open Weather API to
-                                display current and future weather based on a
-                                city searched by the user. Uses technologies
-                                such as React, Javascript, CSS, etc.
+                                A weather app that displays weather patterns
+                                based on a searched city. Uses technologies such
+                                as Open Weather API, React, Javascript, CSS,
+                                etc.
                               </p>
                             </div>
                           </div>
@@ -205,15 +205,14 @@ function Portfolio() {
                                 </a>{' '}
                               </div>
                               <p className='app-description'>
-                                A website built for Rural Community Credit Union
-                                that uses technologies such as squarespace,
-                                javascript, css and more.
+                                A simple tic tac toe game using React.js,
+                                Material UI and typescript.
                               </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
+                      {/* <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
                         <div className='card well portfolio-card'>
                           <div className='card-header'>
                             <h4 className='text-center card-title'>
@@ -252,8 +251,8 @@ function Portfolio() {
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
+                      </div> */}
+                      {/* <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
                         <div className='card well portfolio-card'>
                           <div className='card-header'>
                             <h4 className='text-center card-title'>
@@ -294,7 +293,7 @@ function Portfolio() {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </Fade>
