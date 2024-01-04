@@ -43,7 +43,12 @@ function Footer() {
                   <div className='row'>
                     <div className='col-md-12 text-center'>
                       <div className='resume-container btn btn-danger'>
-                        <a className='resume' target='_blank' href={Pdf}>
+                        <a
+                          className='resume'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href={Pdf}
+                        >
                           <FontAwesomeIcon
                             className='technology-icon hvr-grow frontend-icon'
                             icon={['fas', 'download']}
@@ -147,7 +152,11 @@ function Footer() {
                   <div className='col-md-12'>
                     <div className='social-container'>
                       <h4 className='personal-info'>Social links</h4>
-                      <a href='https://www.github.com/gcriste' target='_blank'>
+                      <a
+                        href='https://www.github.com/gcriste'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <FontAwesomeIcon
                           className='hvr-grow social-icon'
                           icon={['fab', 'github']}
@@ -156,6 +165,7 @@ function Footer() {
                       <a
                         href='https://www.linkedin.com/in/griffin-criste-2ba72b148/'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         <FontAwesomeIcon
                           className='hvr-grow social-icon'
@@ -165,13 +175,18 @@ function Footer() {
                       <a
                         href='https://www.instagram.com/gcriste/?hl=en'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         <FontAwesomeIcon
                           className='hvr-grow social-icon'
                           icon={['fab', 'instagram']}
                         />
                       </a>
-                      <a href='www.facebook.com' target='_blank'>
+                      <a
+                        href='www.facebook.com'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <FontAwesomeIcon
                           className='hvr-grow social-icon'
                           icon={['fab', 'facebook-square']}

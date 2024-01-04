@@ -72,6 +72,7 @@ function About() {
                         <a
                           href='https://www.github.com/gcriste'
                           target='_blank'
+                          rel='noopener noreferrer'
                         >
                           <FontAwesomeIcon
                             className='hvr-grow social-icon-about'
@@ -81,6 +82,7 @@ function About() {
                         <a
                           className='frontend-icon-about'
                           target='_blank'
+                          rel='noopener noreferrer'
                           href={Pdf}
                         >
                           <FontAwesomeIcon

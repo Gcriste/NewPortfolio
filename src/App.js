@@ -2,15 +2,13 @@ import React from 'react';
 import './App.css';
 import './hover.css';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import Nav from './components/Nav';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Technologies from './components/Technologies';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
-import NoMatch from './components/NoMatch';
 
 function App() {
   return (
