@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import Pdf from './assets/GriffinCristeResumeJanuary2024.docx.pdf';
+import Pdf from './assets/GriffinCriste.Resume.2024.docx.pdf';
 library.add(fab);
 
 function About() {
@@ -55,13 +55,14 @@ function About() {
                   <div className=''>
                     <h2 className='text-center about-header '>ABOUT</h2>
                     <p>
-                      I am a Software Developer with a background in Audio
-                      Engineering and Education. I always try to keep a positive
-                      attitude. Through strong communication, patience, love and
-                      support, I strive to be the best developer I can be, while
-                      continuing to learn and grow. I enjoy problem solving,
-                      playing music, hanging with my family, hiking, traveling,
-                      and of course - coding.
+                      I am a Software Developer with a foundation in Audio
+                      Engineering and Education. Maintaining a positive attitude
+                      is my guiding principle. Fueled by effective
+                      communication, patience, and unwavering love and support,
+                      I am dedicated to evolving into the best developer
+                      possible. I embrace continuous learning and personal
+                      growth. Beyond coding, my passions include playing music,
+                      spending quality time with my family, and hiking.
                     </p>
                   </div>
                   <div className='about-second-container'>
