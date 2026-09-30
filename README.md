@@ -3,7 +3,7 @@
 ---
 
 ## Deployable Link
-https://newportfolio-gcriste.herokuapp.com/
+[https://newportfolio-gcriste.herokuapp.com/](https://griffin-criste-portfolio.netlify.app/)
 
 ## Table of Contents
 
