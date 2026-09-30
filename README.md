@@ -3,7 +3,7 @@
 ---
 
 ## Deployable Link
-[[(https://griffin-criste-portfolio.netlify.app/)](https://griffin-criste-portfolio.netlify.app/)
+[(https://griffin-criste-portfolio.netlify.app/)](https://griffin-criste-portfolio.netlify.app/)
 
 ## Table of Contents
 
