@@ -212,6 +212,54 @@ function Portfolio() {
                           </div>
                         </div>
                       </div>
+                      <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
+                        <div className='card well portfolio-card'>
+                          <div className='card-header'>
+                            <h4 className='text-center card-title'>
+                              <strong>Google Books</strong>
+                            </h4>
+                          </div>
+
+                          <div className='card-body'>
+                            <a href='#demo6' data-toggle='collapse'>
+                              <img
+                                src={require('./assets/google-books.png')}
+                                className='app img-fluid'
+                                alt='screenshot of Google Books application'
+                              />
+                            </a>
+
+                            <div id='demo6' className='collapse'>
+                              {' '}
+                              <div className='link-container'>
+                                <a
+                                  href='https://google-books-hc1y-git-gec-sam-cd4a21-griffins-projects-375a85f9.vercel.app/'
+                                  className='portfolio-link'
+                                  target='_blank'
+                                  rel='noopener noreferrer'
+                                >
+                                  <h5>Live Link</h5>
+                                </a>{' '}
+                                <a
+                                  href='https://github.com/Gcriste/Google-books'
+                                  className='portfolio-link'
+                                  target='_blank'
+                                  rel='noopener noreferrer'
+                                >
+                                  <h5>GitHub Link</h5>
+                                </a>
+                              </div>
+                              <p className='app-description'>
+                                A Google Books application that allows users to
+                                search for books, view book details, save
+                                favorites, and manage reviews. Built with React
+                                and the Google Books API.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
                       {/* <div className='col-lg-3 col-sm-6 col-12 image-wrapper'>
                         <div className='card well portfolio-card'>
                           <div className='card-header'>
