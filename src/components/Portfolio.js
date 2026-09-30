@@ -233,7 +233,7 @@ function Portfolio() {
                               {' '}
                               <div className='link-container'>
                                 <a
-                                  href='https://google-books-hc1y-git-gec-sam-cd4a21-griffins-projects-375a85f9.vercel.app/'
+                                  href='https://google-books-hc1y-lkok7fzzn-griffins-projects-375a85f9.vercel.app/'
                                   className='portfolio-link'
                                   target='_blank'
                                   rel='noopener noreferrer'
